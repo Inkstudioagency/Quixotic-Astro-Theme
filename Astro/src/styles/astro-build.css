@@ -1,0 +1,5 @@
+/* Inert global stylesheet. Bundled by Astro into /_astro/*.css and linked on every
+   page (build.inlineStylesheets: "never"). It matches no element and changes nothing. */
+[data-astro-build] {
+  color: inherit;
+}

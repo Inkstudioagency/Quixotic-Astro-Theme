@@ -13,5 +13,7 @@ export default defineConfig({
   compressHTML: false,
   build: {
     format: "directory",
+    // Emit bundled CSS as /_astro/*.css files instead of inlining it.
+    inlineStylesheets: "never",
   },
 });
