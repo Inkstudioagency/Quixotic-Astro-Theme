@@ -31,10 +31,6 @@ export const WF_PAGE_IDS = {
   blogCategory: "6b03d8352323461141e8bb14",
   destination: "6b03d8352323461141e8bb0d",
   package: "6b03d8352323461141e8bb0b",
-  // Utility pages restored from the published site (not part of the original export).
-  instructions: "6af61f5f090698eb77baf2ee",
-  licenses: "6af61f4bda7fd21616141c5d",
-  changelog: "6af61f418f170d113e6a4b4e",
 } as const;
 
 export type WfPage = keyof typeof WF_PAGE_IDS;

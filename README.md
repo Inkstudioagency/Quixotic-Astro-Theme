@@ -7,7 +7,7 @@ Quixotic is a travel agency theme for [Astro](https://astro.build): curated dest
 ## Features
 
 - **Astro 7**, static output, no client-side framework
-- Home, About, Destinations, Packages, Blog, Contact, Style Guide, Instructions, Licenses, Changelog and 404 pages
+- Home, About, Destinations, Packages, Blog, Contact, Style Guide and 404 pages
 - Dynamic routes: `/package/[slug]`, `/destination/[slug]`, `/blog/[slug]`, `/blog-category/[slug]`
 - **Strapi 5** CMS with two content systems (Travel and Blog), demo-content seeding and the Strapi MCP server enabled
 - GSAP scroll animations, Lenis smooth scroll, a Home preloader, a 3D destination slider and region tabs

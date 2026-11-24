@@ -3,7 +3,7 @@
 Quixotic is a travel agency theme for tour operators: curated destinations, holiday packages, traveler reviews, FAQs and a blog. Content for the travel and blog sections is managed in **Strapi**, with bundled demo content so the theme works out of the box.
 
 - Astro 7, static output, no client-side framework
-- 15 pages plus dynamic routes for packages, destinations, blog posts and blog categories
+- 8 pages plus dynamic routes for packages, destinations, blog posts and blog categories
 - Strapi 5 CMS integration (optional) with an automatic fallback to bundled content
 - GSAP scroll animations, Lenis smooth scroll, a Home preloader and a 3D destination slider
 - Working forms through any form endpoint (Formspree, Getform, Basin…)
@@ -64,12 +64,10 @@ src/
   pages/             routes
 ```
 
-The in-site **Instructions** page (`/instructions`) explains colours, components, CMS, forms and every animation script in detail.
-
 ## Deployment
 
 The build output in `dist/` is plain static files and can be hosted anywhere (Netlify, Vercel, Cloudflare Pages, GitHub Pages, any web server). Set the environment variables in your host's dashboard.
 
 ## Credits
 
-Fonts: Instrument Serif and Plus Jakarta Sans (SIL Open Font License). Photos: Lummi. Videos: Pexels. Icons: Hugeicons. Details on the `/licenses` page.
+Fonts: Instrument Serif and Plus Jakarta Sans (SIL Open Font License). Photos: Lummi. Videos: Pexels. Icons: Hugeicons.

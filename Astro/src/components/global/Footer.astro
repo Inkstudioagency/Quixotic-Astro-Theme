@@ -44,15 +44,12 @@ const linkClass = (cls: string, href: string) => (isCurrent(href) ? `${cls} w--c
             <a href="/#testimonials" class="footer-link">Testimonials</a>
             <a href="/#faq" class="footer-link">FAQ</a>
             <a href="/contact" aria-current={current("/contact")} class={linkClass("footer-link", "/contact")}>Contact</a>
-            <a href="/instructions" aria-current={current("/instructions")} class={linkClass("footer-link", "/instructions")}>Instructions</a>
-            <a href="/licenses" aria-current={current("/licenses")} class={linkClass("footer-link", "/licenses")}>Licenses</a>
           </div>
         </div>
         <div class="footer-link-column">
           <div class="footer-link-title">Utility</div>
           <div class="footer-link-list">
             <a href="/style-guide" aria-current={current("/style-guide")} class={linkClass("footer-link", "/style-guide")}>Style Guide</a>
-            <a href="/changelog" aria-current={current("/changelog")} class={linkClass("footer-link", "/changelog")}>Changelog</a>
             <a href="/404" aria-current={current("/404")} class={linkClass("footer-link", "/404")}>404 </a>
           </div>
         </div>
