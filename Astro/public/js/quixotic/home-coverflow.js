@@ -6,8 +6,8 @@
    gets the is-active combo class. Autoplay pauses while the visitor hovers the slider or focuses a control.
    Card gap: 20px (5px under 768px). Built for 6 items. Turn off: remove data-dest-coverflow from the Collection List
    (the native swipe row comes back). Reduced motion: no 3D slider, controls hidden. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   var root = document.querySelector("[data-dest-coverflow]");
   if (!window.gsap || !window.ScrollTrigger || !root) return;
   gsap.registerPlugin(ScrollTrigger);

@@ -9,8 +9,8 @@
    Awards (4 cards): the stack pins under its heading (240vh); each card slides up over the previous one and every covered
    card steps back (scale -0.06, y -20px, content opacity -0.2 per level, min 0.5). On short screens the stack scales
    down to fit (0.4 to 1 by screen height); the incoming card starts one screen (100vh divided by that scale) below. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger) return;
   gsap.registerPlugin(ScrollTrigger);
   gsap.config({ nullTargetWarn: false });

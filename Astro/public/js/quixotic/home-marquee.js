@@ -3,8 +3,8 @@
    ribbon 1, ribbon 2 (lavender, runs right), ribbon 3 (coral), Discover row, testimonial columns 1-3 (column 2 runs down).
    The horizontal tracks reverse while the visitor scrolls up and drift 80px with the scroll.
    Turn off: remove data-marquee from a track. Reduced motion: off. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger || !document.querySelector("[data-marquee]")) return;
   gsap.registerPlugin(ScrollTrigger);
   gsap.config({ nullTargetWarn: false });

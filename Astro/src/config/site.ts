@@ -12,12 +12,9 @@ export const SITE = {
 } as const;
 
 /**
- * The interaction runtime (public/js/webflow.js) binds page-specific animations
- * through the `data-wf-page` / `data-wf-site` attributes on <html>.
- * These IDs must stay exactly as exported, or scroll/hover animations stop working.
+ * Page IDs from the original design export. Forms carry their page's ID
+ * (data-wf-page-id) as in the original markup; keep the values unchanged.
  */
-export const WF_SITE_ID = "6b03d8352323461141e8bb2a";
-
 export const WF_PAGE_IDS = {
   home: "6b03d8352323461141e8bb05",
   about: "6b03d8352323461141e8bb08",

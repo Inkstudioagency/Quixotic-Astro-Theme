@@ -3,8 +3,8 @@
    Hook: data-cta-expand on the CTA component's .section_cta.
    Values: scroll length 230vh, scrub 0.8, start radius per screen size (270.5px / 224px / 24px = half the capsule height).
    Turn off: remove data-cta-expand (the static capsule stays). Reduced motion: off. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger || !document.querySelector("[data-cta-expand]")) return;
   gsap.registerPlugin(ScrollTrigger);
   var mm = gsap.matchMedia();

@@ -2,8 +2,8 @@
    The hero [data-hero-curtain] stays put while the next section slides over it; the photo zooms to 1.08 and dims to
    0.4, the title holds, then moves up 64px and fades. Under 992px the photo only drifts down 30% (parallax). Scrub 0.5.
    Turn off: remove data-hero-curtain from the hero. Reduced motion: off. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger || !document.querySelector("[data-hero-curtain]")) return;
   gsap.registerPlugin(ScrollTrigger);
   gsap.config({ nullTargetWarn: false });

@@ -1,8 +1,8 @@
 /* Quixotic: packages region slider focus blur (GSAP). The active slide stays sharp; every other slide (aria-hidden)
    blurs 6px, easing 0.5s on each change. The first time a slider comes into view (also after switching tabs) it moves
    one slide on its own and stops, so blurred slides sit on both sides of the active one. Turn off: remove this script. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap) return;
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   document.querySelectorAll(".region-slider").forEach(function (slider) {

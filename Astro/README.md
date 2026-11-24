@@ -50,9 +50,9 @@ Without `STRAPI_URL`, pages render from `src/data/cms.json`, the same demo conte
 
 ```text
 public/
-  css/               theme styles (CSS variables at the top of quixotic-astro-theme.webflow.css)
+  css/               theme styles (CSS variables at the top of quixotic.css)
   images/ videos/    static assets (images/cms holds the demo CMS images)
-  js/webflow.js      interaction runtime (menus, tabs, sliders, scroll reveals)
+  js/site.js         interaction runtime (menus, tabs, sliders, scroll reveals)
   js/vendor/         jQuery, GSAP, ScrollTrigger, SplitText, Lenis, WebFont (self-hosted)
   js/quixotic/       theme scripts: animations, forms, smooth scroll
 src/

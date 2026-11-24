@@ -23,8 +23,8 @@
     gsap.set("html", { overflow: "hidden" });
     gsap.delayedCall(8, finish);
   });
-  window.Webflow = window.Webflow || [];
-  window.Webflow.push(function () {
+  window.Quixotic = window.Quixotic || [];
+  window.Quixotic.push(function () {
     mm.add("(prefers-reduced-motion: no-preference)", function () {
       gsap.timeline({ onComplete: finish })
         .fromTo("[data-preloader-card]", { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.4, ease: "power2.out" }, 0)

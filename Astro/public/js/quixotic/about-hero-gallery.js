@@ -6,8 +6,8 @@
    [data-gallery-zoom-tile] grows to the full row (width / height 100%, radius 16px to 0) over the first 80vh of scroll and
    pushes the side tiles out; the photo / Background Video inside stays cover-fitted, never stretched. Under 992px: static row.
    Turn off: remove the attribute from the section. Reduced motion: nothing runs. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger) return;
   gsap.registerPlugin(ScrollTrigger);
   gsap.config({ nullTargetWarn: false });

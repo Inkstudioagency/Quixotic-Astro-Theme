@@ -2,8 +2,8 @@
    ("+", "K+", "%", "/5") sits in its own span. GSAP counts the number up from 0 once when it scrolls into view.
    Whole numbers: data-counter-number with an empty value. One decimal (4.9): data-counter-number = decimal.
    Turn off: remove data-counter-number from the span (the number stays as typed). Reduced motion: no count-up. */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   if (!window.gsap || !window.ScrollTrigger || !document.querySelector("[data-counter-number]")) return;
   gsap.registerPlugin(ScrollTrigger);
   gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", function () {

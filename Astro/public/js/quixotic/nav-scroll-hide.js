@@ -3,8 +3,8 @@
    Slide: 0.9s sine.out, soft enough to match Lenis smooth scroll.
    It stays visible while the menu is open or a nav control has keyboard focus. Turn off: remove this script.
    Reduced motion: instant (no slide). */
-window.Webflow = window.Webflow || [];
-window.Webflow.push(function () {
+window.Quixotic = window.Quixotic || [];
+window.Quixotic.push(function () {
   var header = document.querySelector(".section_header");
   if (!window.gsap || !header) return;
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
