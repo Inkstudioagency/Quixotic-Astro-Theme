@@ -1,0 +1,118 @@
+---
+// Site header + mega menu (shared by every page).
+// Current-page link state is computed at build time.
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const isCurrent = (href: string) => (href.replace(/\/$/, "") || "/") === path;
+const current = (href: string) => (isCurrent(href) ? "page" : undefined);
+const linkClass = (cls: string, href: string) => (isCurrent(href) ? `${cls} w--current` : cls);
+---
+<header data-wf-component-id="0f8a6ee9-c25d-d746-89e7-c78a4a93731f" data-wf-variant-state="base" class="section_header">
+  <nav aria-label="Main navigation" class="nav-wrapper">
+    <div class="nav-bar"><button aria-label="Menu" type="button" popovertargetaction="toggle" popovertarget="w-popover-450684d4-0fb4-95d1-ecff-c5d96fdac021__b0297673-4aa6-6c0f-5831-82b45c1fcf94" class="nav-menu-button w-inline-block w-popover-trigger">
+        <div class="nav-menu-line"></div>
+        <div class="nav-menu-line"></div>
+      </button>
+      <a aria-label="Quixotic home" href="/" aria-current={current("/")} class={linkClass("brand-logo-block w-inline-block", "/")}><img src="/images/quixotic-logo.svg" loading="lazy" width="92" height="30" alt="Quixotic logo" class="brand-logo"></a>
+      <div class="nav-button-block">
+        <a data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;0f8a6ee9-c25d-d746-89e7-c78a4a937328&quot;]]]" data-wf-component-id="6ecb507f-d06f-1563-fe11-5255e3c667ca" data-wf-variant-state="base" href="/contact" aria-current={current("/contact")} class={linkClass("primary-button w-inline-block", "/contact")}>
+          <div class="button-text-mask">
+            <div data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cc&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;0f8a6ee9-c25d-d746-89e7-c78a4a937328&quot;]]]" class="button-text">Get in touch</div>
+            <div aria-hidden="true" data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cd&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;0f8a6ee9-c25d-d746-89e7-c78a4a937328&quot;]]]" class="button-text is-hover">Get in touch</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div aria-label="Main menu" data-wf-target="[[[&quot;0f8a6ee9-c25d-d746-89e7-c78a4a93731f&quot;,&quot;b0297673-4aa6-6c0f-5831-82b45c1fcf94&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;]]]" id="w-popover-450684d4-0fb4-95d1-ecff-c5d96fdac021__b0297673-4aa6-6c0f-5831-82b45c1fcf94" data-w-popover-mode="auto" popover="auto" class="nav-popover w-popover">
+    <div aria-hidden="true" data-wf-target="[[[&quot;0f8a6ee9-c25d-d746-89e7-c78a4a93731f&quot;,&quot;8f3e19c1-3db3-082c-e693-08254d725b37&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;]]]" class="nav-overlay"></div>
+    <div class="nav-popover-inner">
+      <div class="nav-panel">
+        <div class="nav-panel-row"><button aria-label="Close menu" type="button" popovertargetaction="hide" popovertarget="w-popover-450684d4-0fb4-95d1-ecff-c5d96fdac021__b0297673-4aa6-6c0f-5831-82b45c1fcf94" class="nav-menu-button w-inline-block w-popover-trigger">
+            <div class="nav-menu-line"></div>
+            <div class="nav-menu-line"></div>
+          </button>
+          <a aria-label="Quixotic home" href="/" aria-current={current("/")} class={linkClass("brand-logo-block w-inline-block", "/")}><img src="/images/quixotic-logo.svg" loading="lazy" alt="Quixotic logo" class="brand-logo"></a>
+          <div class="nav-button-block">
+            <a data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;eae46cb3-0b8b-e809-289f-ccfa224600a7&quot;]]]" data-wf-component-id="6ecb507f-d06f-1563-fe11-5255e3c667ca" data-wf-variant-state="base" href="/contact" aria-current={current("/contact")} class={linkClass("primary-button w-inline-block", "/contact")}>
+              <div class="button-text-mask">
+                <div data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cc&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;eae46cb3-0b8b-e809-289f-ccfa224600a7&quot;]]]" class="button-text">Get in touch</div>
+                <div aria-hidden="true" data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cd&quot;],[&quot;450684d4-0fb4-95d1-ecff-c5d96fdac021&quot;,&quot;eae46cb3-0b8b-e809-289f-ccfa224600a7&quot;]]]" class="button-text is-hover">Get in touch</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="nav-mega">
+          <div data-lenis-prevent="" class="nav-mega-inner">
+            <div class="nav-mega-row">
+              <div class="nav-mega-col is-card">
+                <div class="nav-mega-label">Explore Quixotic</div>
+                <div class="nav-mega-links">
+                  <a href="/" aria-current={current("/")} class={linkClass("nav-mega-link w-inline-block", "/")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>Home</div>
+                  </a>
+                  <a href="/about" aria-current={current("/about")} class={linkClass("nav-mega-link w-inline-block", "/about")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>About us</div>
+                  </a>
+                  <a href="/destinations" aria-current={current("/destinations")} class={linkClass("nav-mega-link w-inline-block", "/destinations")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>Destinations</div>
+                  </a>
+                  <a href="/packages" aria-current={current("/packages")} class={linkClass("nav-mega-link w-inline-block", "/packages")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>Packages</div>
+                  </a>
+                </div>
+              </div>
+              <div class="nav-mega-col is-plain">
+                <div class="nav-mega-label">Plan your trip</div>
+                <div class="nav-mega-links">
+                  <a href="/blog" aria-current={current("/blog")} class={linkClass("nav-mega-link w-inline-block", "/blog")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>Journal</div>
+                  </a>
+                  <a href="/contact" aria-current={current("/contact")} class={linkClass("nav-mega-link w-inline-block", "/contact")}>
+                    <div class="nav-mega-bullet">
+                      <div class="nav-mega-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 12 12" fill="none" aria-hidden="true">
+                          <path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></div>
+                    </div>
+                    <div>Contact</div>
+                  </a>
+                </div>
+                <a href="/packages" aria-current={current("/packages")} class={linkClass("nav-mega-feature w-inline-block", "/packages")}>
+                  <div class="nav-mega-feature-image-wrap"><img src="/images/quixotic-nav-feature-overwater-villas.webp" loading="lazy" width="1920" height="1080" alt="Person in a red jacket standing on dark rocky ground facing a large waterfall cascading between two lush green cliffs at sunset with a colorful sky." srcset="/images/quixotic-nav-feature-overwater-villas-p-500.webp 500w, /images/quixotic-nav-feature-overwater-villas-p-800.webp 800w, /images/quixotic-nav-feature-overwater-villas-p-1080.webp 1080w, /images/quixotic-nav-feature-overwater-villas.webp 1280w" sizes="100vw" class="nav-mega-feature-image"></div>
+                  <div class="nav-mega-feature-body">
+                    <div class="nav-mega-label">Featured</div>
+                    <div class="nav-mega-feature-title">Handpicked trips, planned end to end</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

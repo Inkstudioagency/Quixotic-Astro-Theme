@@ -1,0 +1,76 @@
+---
+// Site footer: newsletter form, link columns and video wordmark.
+interface Props { wfPageId: string }
+const { wfPageId } = Astro.props;
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const isCurrent = (href: string) => (href.replace(/\/$/, "") || "/") === path;
+const current = (href: string) => (isCurrent(href) ? "page" : undefined);
+const linkClass = (cls: string, href: string) => (isCurrent(href) ? `${cls} w--current` : cls);
+---
+<footer class="section_footer">
+  <div class="container-main">
+    <div class="footer-top">
+      <div class="footer-brand-block">
+        <div class="footer-brand-content">
+          <a href="/" aria-current={current("/")} class={linkClass("footer-logo-link w-inline-block", "/")}><img src="/images/quixotic-logo.svg" loading="lazy" width="92" height="30" alt="Quixotic" class="footer-logo"></a>
+          <p class="footer-text">We plan handcrafted journeys, curated stays and seamless travel experiences so you can explore the world with complete peace of mind.</p>
+        </div>
+        <div class="footer-form-block w-form">
+          <form id="newsletter-form" name="wf-form-Newsletter-Form" data-name="Newsletter Form" method="get" class="footer-form-fields" data-wf-page-id={wfPageId} data-wf-element-id="53768a05-efd1-e767-9eb4-923bb868f440"><label for="footer-email" class="footer-form-title">Newsletter Signup</label>
+            <div class="footer-form"><input class="footer-input w-input" autocomplete="email" maxlength="256" name="Newsletter-Email" data-name="Newsletter Email" placeholder="Your email address" type="email" id="footer-email" required=""><input type="submit" data-wait="Please wait..." class="footer-submit w-button" value="Subscribe"></div>
+          </form>
+          <div class="footer-form-success w-form-done">
+            <div>You&#x27;re on the list! Look out for travel ideas in your inbox soon.</div>
+          </div>
+          <div class="footer-form-error w-form-fail">
+            <div>We couldn&#x27;t add you just now. Check your email and try again.</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-link-grid">
+        <div class="footer-link-column">
+          <div class="footer-link-title">Pages</div>
+          <div class="footer-link-list">
+            <a href="/" aria-current={current("/")} class={linkClass("footer-link", "/")}>Home</a>
+            <a href="/about" aria-current={current("/about")} class={linkClass("footer-link", "/about")}>About</a>
+            <a href="/destinations" aria-current={current("/destinations")} class={linkClass("footer-link", "/destinations")}>Destinations</a>
+            <a href="/packages" aria-current={current("/packages")} class={linkClass("footer-link", "/packages")}>Packages</a>
+            <a href="/blog" aria-current={current("/blog")} class={linkClass("footer-link", "/blog")}>Blog</a>
+          </div>
+        </div>
+        <div class="footer-link-column">
+          <div class="footer-link-title">Inner Pages</div>
+          <div class="footer-link-list">
+            <a href="/#testimonials" class="footer-link">Testimonials</a>
+            <a href="/#faq" class="footer-link">FAQ</a>
+            <a href="/contact" aria-current={current("/contact")} class={linkClass("footer-link", "/contact")}>Contact</a>
+            <a href="/instructions" aria-current={current("/instructions")} class={linkClass("footer-link", "/instructions")}>Instructions</a>
+            <a href="/licenses" aria-current={current("/licenses")} class={linkClass("footer-link", "/licenses")}>Licenses</a>
+          </div>
+        </div>
+        <div class="footer-link-column">
+          <div class="footer-link-title">Utility</div>
+          <div class="footer-link-list">
+            <a href="/style-guide" aria-current={current("/style-guide")} class={linkClass("footer-link", "/style-guide")}>Style Guide</a>
+            <a href="/changelog" aria-current={current("/changelog")} class={linkClass("footer-link", "/changelog")}>Changelog</a>
+            <a href="/404" aria-current={current("/404")} class={linkClass("footer-link", "/404")}>404 </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-poster-url="/videos/footer-video_poster.0000000.jpg" data-video-urls="/videos/footer-video_mp4.mp4,/videos/footer-video_webm.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="footer-wordmark w-background-video w-background-video-atom"><video id="faf20158-90a8-f94c-053a-3ca1a2b60342-video" autoplay="" loop="" style="background-image:url(&quot;/videos/footer-video_poster.0000000.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+        <source src="/videos/footer-video_mp4.mp4" data-wf-ignore="true">
+        <source src="/videos/footer-video_webm.webm" data-wf-ignore="true">
+      </video>
+      <div aria-label="Quixotic" role="img" class="footer-wordmark-knockout"></div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-bottom-text">© Copyright 2026 | Design By <a href="https://inks.studio" target="_blank" class="footer-bottom-text-link">Ink studio</a>
+        <link rel="noopener" href="https://inks.studio">
+      </p>
+      <p class="footer-bottom-text"> Powered By <a href="https://astro.build" rel="noopener" target="_blank" class="footer-bottom-text-link">Astro</a>
+        <link rel="noopener" href="https://astro.build">
+      </p>
+    </div>
+  </div>
+</footer>

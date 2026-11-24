@@ -1,0 +1,16 @@
+---
+// CMS image. Mirrors Webflow's bound-image behaviour: when the field is empty the
+// element keeps its class plus `w-dyn-bind-empty`, which hides it.
+import type { HTMLAttributes } from "astro/types";
+import type { Media } from "../../lib/cms/types";
+
+interface Props extends Omit<HTMLAttributes<"img">, "src" | "alt"> {
+  media: Media | null | undefined;
+  /** Overrides the media's own alt text (e.g. the post title). */
+  alt?: string;
+}
+
+const { media, alt, class: className, ...attrs } = Astro.props;
+const cls = media ? className : [className, "w-dyn-bind-empty"].filter(Boolean).join(" ");
+---
+<img src={media?.url ?? ""} alt={alt ?? media?.alt ?? ""} class={cls} {...attrs} />

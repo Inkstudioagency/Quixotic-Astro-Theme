@@ -1,0 +1,37 @@
+---
+// Destinations page grid (Travel CMS → destinations, newest first).
+import Img from "../cms/Img.astro";
+import { getDestinationsNewestFirst } from "../../lib/cms";
+
+const destinations = await getDestinationsNewestFirst();
+---
+<section data-hero-curtain-panel="" class="section_packages-list">
+  <div class="section-gap">
+    <div class="container-main">
+      <div class="w-dyn-list">
+        {destinations.length > 0 ? (
+        <div role="list" class="packages-grid is-three w-dyn-items">
+          {destinations.map((item) => (
+          <div role="listitem" class="packages-item w-dyn-item">
+            <div class="destination-card is-grid">
+              <a href={`/destination/${item.slug}`} class="package-image-link w-inline-block"><Img media={item.cardImage} loading="lazy" width="914" height="812" class="destination-image" /></a>
+              <div class="destination-badge">{item.tourCount}</div>
+              <div class="destination-info">
+                <a href={`/destination/${item.slug}`} class="package-title-link w-inline-block">
+                  <h2 class="destination-info-title">{item.name}</h2>
+                </a>
+                <p class="destination-info-text">{item.tagline}</p>
+              </div>
+            </div>
+          </div>
+          ))}
+        </div>
+        ) : (
+        <div class="w-dyn-empty">
+          <div>No items found.</div>
+        </div>
+        )}
+      </div>
+    </div>
+  </div>
+</section>

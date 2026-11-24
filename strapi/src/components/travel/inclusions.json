@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_travel_inclusions",
+  "info": {
+    "displayName": "Inclusions",
+    "description": "The eight 'What's included' items on a package page.",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "stay": {
+      "type": "string"
+    },
+    "wellness": {
+      "type": "string"
+    },
+    "entryFees": {
+      "type": "string"
+    },
+    "guide": {
+      "type": "string"
+    },
+    "meals": {
+      "type": "string"
+    },
+    "tasting": {
+      "type": "string"
+    },
+    "transfers": {
+      "type": "string"
+    },
+    "boatTrip": {
+      "type": "string"
+    }
+  }
+}

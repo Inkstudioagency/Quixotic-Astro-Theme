@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import AboutHero from "../components/about/AboutHero.astro";
+import AboutStory from "../components/about/AboutStory.astro";
+import AboutGallery from "../components/about/AboutGallery.astro";
+import AboutTeam from "../components/about/AboutTeam.astro";
+import AboutWhy from "../components/about/AboutWhy.astro";
+import AboutAwards from "../components/about/AboutAwards.astro";
+import Testimonials from "../components/shared/Testimonials.astro";
+import Faq from "../components/shared/Faq.astro";
+import Cta from "../components/shared/Cta.astro";
+---
+<BaseLayout wfPage="about" title="About - Our Story, Team and Travel Values | Quixotic"
+  description="Meet the Quixotic travel team: the story behind our agency, the planners who craft every journey, the values travelers trust and the awards we have earned." scripts={["about-hero-gallery", "about-effects"]}>
+  <AboutHero />
+  <AboutStory />
+  <AboutGallery />
+  <AboutTeam />
+  <AboutWhy />
+  <AboutAwards />
+  <Testimonials />
+  <Faq />
+  <Cta />
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+// Blog category tabs ("All" + one tab per Blog Category, A–Z).
+import { getBlogCategories } from "../../lib/cms";
+
+interface Props {
+  /** Slug of the active category; omit on the blog index ("All" active). */
+  current?: string;
+}
+
+const { current } = Astro.props;
+const categories = await getBlogCategories();
+const tabClass = (active: boolean) => (active ? "blog-filter-tab w-inline-block w--current" : "blog-filter-tab w-inline-block");
+---
+<nav aria-label="Blog categories" class="blog-filter">
+  <a href="/blog" aria-current={current ? undefined : "page"} class={tabClass(!current)}>All</a>
+  <div class="blog-filter-collection w-dyn-list">
+    <div role="list" class="blog-filter-list w-dyn-items">
+      {categories.map((c) => (
+        <div role="listitem" class="blog-filter-item w-dyn-item">
+          <a href={`/blog-category/${c.slug}`} aria-current={c.slug === current ? "page" : undefined} class={tabClass(c.slug === current)}><span>{c.name}</span></a>
+        </div>
+      ))}
+    </div>
+  </div>
+</nav>

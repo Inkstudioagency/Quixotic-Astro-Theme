@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HomeHero from "../components/home/HomeHero.astro";
+import HomeAbout from "../components/home/HomeAbout.astro";
+import HomeDestinations from "../components/home/HomeDestinations.astro";
+import HomeCurated from "../components/home/HomeCurated.astro";
+import HomePackages from "../components/home/HomePackages.astro";
+import HomeDiscover from "../components/home/HomeDiscover.astro";
+import HomeProcess from "../components/home/HomeProcess.astro";
+import Testimonials from "../components/shared/Testimonials.astro";
+import Faq from "../components/shared/Faq.astro";
+import HomeBlog from "../components/home/HomeBlog.astro";
+import Cta from "../components/shared/Cta.astro";
+---
+<BaseLayout wfPage="home" scripts={["home-preloader", "home-coverflow", "home-marquee"]}>
+  <HomeHero />
+  <HomeAbout />
+  <HomeDestinations />
+  <HomeCurated />
+  <HomePackages />
+  <HomeDiscover />
+  <HomeProcess />
+  <Testimonials />
+  <Faq />
+  <HomeBlog />
+  <Cta />
+</BaseLayout>

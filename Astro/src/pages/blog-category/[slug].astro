@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogCategoryPosts from "../../components/blog-category/BlogCategoryPosts.astro";
+import Cta from "../../components/shared/Cta.astro";
+import { getBlogCategories, getBlogsByCategory, type BlogCategory } from "../../lib/cms";
+
+export async function getStaticPaths() {
+  const categories = await getBlogCategories();
+  return categories.map((category) => ({ params: { slug: category.slug }, props: { category } }));
+}
+
+interface Props {
+  category: BlogCategory;
+}
+
+const { category } = Astro.props;
+const posts = await getBlogsByCategory(category.slug);
+---
+<BaseLayout wfPage="blogCategory" title={category.name} description={category.description}>
+  <BlogCategoryPosts category={category} posts={posts} />
+  <Cta />
+</BaseLayout>

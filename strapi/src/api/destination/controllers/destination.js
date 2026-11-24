@@ -1,0 +1,9 @@
+'use strict';
+
+/**
+ * destination controller
+ */
+
+const { factories } = require('@strapi/strapi');
+
+module.exports = factories.createCoreController('api::destination.destination');

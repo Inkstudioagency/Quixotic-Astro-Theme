@@ -1,0 +1,83 @@
+---
+// Blog post: title, hero image, three rich-text parts with images, and the sidebar.
+import Img from "../cms/Img.astro";
+import RichText from "../cms/RichText.astro";
+import { formatDate, type Blog } from "../../lib/cms";
+import { WF_PAGE_IDS } from "../../config/site";
+
+interface Props {
+  post: Blog;
+}
+
+const { post } = Astro.props;
+---
+<section class="section_blog-post">
+  <div class="section-gap">
+    <div class="container-main">
+      <div class="blog-post-wrapper">
+        <div data-reveal="up" class="blog-post-header">
+          <div class="blog-post-heading-block">
+            <a href="/blog" class="blog-back-link">
+              <div class="blog-back-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.83 10H4.17M10 15.83 4.17 10 10 4.17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>All blogs
+            </a>
+            <h1 class="blog-post-title">{post.title}</h1>
+          </div>
+          <a aria-label="Jump to the article" href="#article" class="blog-post-badge w-inline-block">
+            <div class="blog-post-badge-text w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <path id="blog-badge-circle" d="M41 41m-36 0a36 36 0 1 1 72 0a36 36 0 1 1-72 0"></path>
+                </defs><text fill="currentColor" font-size="9" font-weight="600" letter-spacing="1.4">
+                  <textpath href="#blog-badge-circle">READ BLOG · READ BLOG · READ BLOG ·</textpath>
+                </text>
+              </svg></div>
+            <div class="blog-post-badge-icon">
+              <div class="blog-post-badge-arrow w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></div>
+            </div>
+          </a>
+        </div><Img media={post.thumbnail} alt={post.title} loading="lazy" width="2560" height="1138" data-reveal="up" class="blog-post-image" />
+        <div id="article" class="blog-post-body">
+          <div class="blog-post-article">
+            <RichText blocks={post.contentPart1} class="blog-rich-text w-richtext" />
+            <div class="blog-post-image-pair"><Img media={post.imagePairLeft} loading="lazy" width="734" height="734" class="blog-post-inline-image" /><Img media={post.imagePairRight} loading="lazy" width="734" height="734" class="blog-post-inline-image" /></div>
+            <RichText blocks={post.contentPart2} class="blog-rich-text w-richtext" /><Img media={post.wideImage} loading="lazy" width="1516" height="916" reveal-anim-2="" class="blog-post-inline-image is-wide" />
+            <RichText blocks={post.contentPart3} class="blog-rich-text w-richtext" />
+          </div>
+          <aside class="blog-post-sidebar">
+            <div class="blog-post-meta">
+              <div class="blog-post-meta-row">
+                <div class="blog-post-meta-label">Read time</div>
+                <div class="blog-post-meta-value">{post.readTime}</div>
+              </div>
+              <div class="blog-post-meta-row">
+                <div class="blog-post-meta-label">Published date</div>
+                <div class="blog-post-meta-value">{formatDate(post.publishedDate)}</div>
+              </div>
+              <div class="blog-post-meta-row">
+                <div class="blog-post-meta-label">Category</div>
+                <div class="blog-post-meta-value">{post.category?.name}</div>
+              </div>
+            </div>
+            <div class="blog-newsletter-card is-sidebar">
+              <div class="blog-newsletter-form-block w-form">
+                <form id="wf-form-Blog-Sidebar-Newsletter" name="wf-form-Blog-Sidebar-Newsletter" data-name="Blog Sidebar Newsletter" method="get" class="blog-newsletter-form" data-wf-page-id={WF_PAGE_IDS.blogPost} data-wf-element-id="d5ca7f0d-c9a2-18d7-32c4-e3d8fe9c5b3d"><label for="sidebar-email" class="blog-newsletter-title is-small">Stay Connected!</label>
+                  <p class="blog-newsletter-text">Get travel updates, route guides and insider tips from our planners, straight to your inbox.</p>
+                  <div class="blog-newsletter-field is-stacked"><input class="blog-newsletter-input is-dark w-input" maxlength="256" name="Email" data-name="Email" aria-label="Email address" placeholder="Write your email" type="email" id="sidebar-email" required=""><input type="submit" data-wait="Please wait..." class="blog-newsletter-submit is-full w-button" value="Submit"></div>
+                </form>
+                <div class="footer-form-success w-form-done">
+                  <div>Thanks for subscribing! Look out for our next travel guide in your inbox.</div>
+                </div>
+                <div class="footer-form-error w-form-fail">
+                  <div>Something went wrong. Please check your email address and try again.</div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

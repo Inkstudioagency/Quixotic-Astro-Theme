@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PackageHero from "../../components/package/PackageHero.astro";
+import PackageGallery from "../../components/package/PackageGallery.astro";
+import PackageDetails from "../../components/package/PackageDetails.astro";
+import PackageRelated from "../../components/package/PackageRelated.astro";
+import Faq from "../../components/shared/Faq.astro";
+import Cta from "../../components/shared/Cta.astro";
+import { getPackages, getRelatedPackages, type Package } from "../../lib/cms";
+
+export async function getStaticPaths() {
+  const packages = await getPackages();
+  return packages.map((pkg) => ({ params: { slug: pkg.slug }, props: { pkg } }));
+}
+
+interface Props {
+  pkg: Package;
+}
+
+const { pkg } = Astro.props;
+const related = await getRelatedPackages(pkg.slug);
+---
+<BaseLayout wfPage="package" title={pkg.name} description={pkg.metaDescription} ogImage={pkg.thumbnail?.url}>
+  <PackageHero pkg={pkg} />
+  <PackageGallery pkg={pkg} />
+  <PackageDetails pkg={pkg} />
+  <PackageRelated packages={related} />
+  <Faq />
+  <Cta />
+</BaseLayout>

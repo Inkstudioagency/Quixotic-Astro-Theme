@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_travel_itinerary_day",
+  "info": {
+    "displayName": "Itinerary Day",
+    "description": "One day of the day-by-day plan.",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "text"
+    }
+  }
+}

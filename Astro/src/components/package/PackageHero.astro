@@ -1,0 +1,46 @@
+---
+// Package page hero: title and meta badges.
+import type { Package } from "../../lib/cms";
+
+interface Props {
+  pkg: Package;
+}
+
+const { pkg } = Astro.props;
+---
+<section class="section_package-hero">
+  <div class="container-main">
+    <div class="package-hero-content">
+      <a href="/packages" class="package-back-link w-inline-block">
+        <div class="package-back-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></div>
+        <div>Back to tours</div>
+      </a>
+      <h1 class="heading-style-1 package-hero-title">{pkg.name}</h1>
+      <div class="package-hero-meta">
+        <div class="package-badge is-outline">
+          <div class="package-badge-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.62 21.53c-.43.42-1.01.65-1.62.65s-1.19-.23-1.62-.65C6.4 17.68 1.08 13.37 3.680 7.1 5.08 3.71 8.47 1.5 12 1.5s6.92 2.21 8.32 5.6c2.6 6.26-2.71 10.59-6.7 14.43Z" stroke="currentColor" stroke-width="1.5"></path>
+              <circle cx="12" cy="11" r="3.5" stroke="currentColor" stroke-width="1.5"></circle>
+            </svg></div>
+          <div>{pkg.location}</div>
+        </div>
+        <div class="package-badge is-outline">
+          <div class="package-badge-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"></circle>
+              <path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></div>
+          <div>{pkg.duration}</div>
+        </div>
+        <div class="package-badge is-outline">
+          <div class="package-badge-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.5l2.94 5.96 6.56.95-4.75 4.63 1.12 6.53L12 17.49l-5.87 3.08 1.12-6.53L2.5 9.41l6.56-.95L12 2.5Z" fill="currentColor"></path>
+            </svg></div>
+          <div>{pkg.rating}</div>
+          <div>{pkg.reviewCount}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,3189 @@
+{
+  "blogCategories": [
+    {
+      "name": "Travel Tips",
+      "slug": "travel-tips",
+      "description": "Practical travel tips from our planners on packing light, setting a budget and sharing the planning, so every trip runs smoothly from start to finish."
+    },
+    {
+      "name": "Destinations",
+      "slug": "destinations",
+      "description": "Destination guides from the Quixotic team with island routes, ferry tips and where to stay, so you can plan an easy trip to the places travellers love most."
+    },
+    {
+      "name": "Adventure",
+      "slug": "adventure",
+      "description": "Adventure stories and route guides for hikers and road trippers, from alpine lake trails to waterfall drives, with packing lists and safety tips for each trip."
+    },
+    {
+      "name": "Culture",
+      "slug": "culture",
+      "description": "Culture and slow travel ideas for eating, shopping and living like a local, with tips on markets, family-run restaurants and longer stays in one welcoming town."
+    }
+  ],
+  "blogs": [
+    {
+      "title": "A First-Timer's Guide to Hiking Europe's Stunning Alpine Lakes",
+      "slug": "first-timers-guide-alpine-lakes",
+      "summary": "How to plan routes, pack layers and pick the best season for your first alpine lake hike.",
+      "thumbnail": {
+        "url": "/images/cms/blog-1.webp",
+        "alt": "Traveller reading a map beside a mountain lake"
+      },
+      "authorName": "Devon Lane",
+      "authorImage": {
+        "url": "/images/cms/blog-author-1.webp",
+        "alt": "Devon Lane"
+      },
+      "readTime": "5 Min",
+      "publishedDate": "2026-08-27",
+      "category": "adventure",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why start with a lake hike"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Alpine lake trails are the friendliest way into mountain hiking. Most follow well-marked paths with gentle climbs, and the reward at the top is a mirror of turquoise water framed by snowy peaks. You get big views without technical skills or special gear."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "What to pack for the trail"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A breathable base layer and a light insulating jacket for the summit"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A waterproof shell, since mountain weather can change within minutes"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Broken-in hiking boots with good grip and a spare pair of socks"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Snacks, two litres of water and a small first aid kit"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Choose the right season"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Late June to mid-September brings open trails, warm afternoons and wildflowers around most alpine lakes. Snow can linger on higher passes well into July, so check local trail reports and hut websites before you set off."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Start early in the morning whatever the month. Afternoon thunderstorms are common in summer, the light on the water is softer at sunrise, and you will have the lakeshore almost to yourself before the cable cars open."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/quixotic-package-alps.webp",
+        "alt": "Snow-capped Swiss Alps above a green valley"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/quixotic-destination-alpine-village.avif",
+        "alt": "Alpine chalets and a wildflower meadow below a snowy peak"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Start with a classic loop"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Pick a well-marked loop under twelve kilometres for your first hike. You will have time to stop for photos, picnics and a cold dip without racing the sunset back down to the village and your car."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Good first choices include the Oeschinensee trail above Kandersteg in Switzerland, the Lago di Sorapis path in the Italian Dolomites and the gentle circuit around Lake Bled in Slovenia. Each one offers bright turquoise water, clear signs and a mountain hut for lunch on the terrace."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/quixotic-package-banff-lake.webp",
+        "alt": "Snow-capped peaks reflected in a still mountain lake"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Staying safe in the mountains"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Tell someone where you are going and when you expect to return, even on a popular trail. Download an offline map before you leave the valley, because phone signal often disappears behind the first ridge."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Turn back if the weather changes or the path becomes harder than expected. The lake will still be there next summer, and knowing when to stop is the most important skill any new hiker can learn."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Your first summit"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Your first alpine lake hike will not be your last. Once you breathe the mountain air and see that turquoise water, you will be planning the next trail before reaching the car park."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Slow Travel: How to Truly Unwind on Your Next Beach Holiday",
+      "slug": "slow-travel-beach-holiday",
+      "summary": "Swap packed itineraries for long mornings, local food and real rest on your next beach escape.",
+      "thumbnail": {
+        "url": "/images/cms/blog-2.webp",
+        "alt": "Traveller in a sun hat relaxing on a deck chair by the sea"
+      },
+      "authorName": "Jenny Wilson",
+      "authorImage": {
+        "url": "/images/cms/blog-author-2.webp",
+        "alt": "Jenny Wilson"
+      },
+      "readTime": "4 Min",
+      "publishedDate": "2026-09-16",
+      "category": "culture",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "What slow travel means"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Slow travel is about staying longer in fewer places and letting each day unfold at its own pace. Instead of ticking off sights, you settle into one beach town, learn the names of the local cafe owners and come home feeling genuinely rested."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Choose the right base"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A small town with a walkable beach and a morning market"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A guesthouse or villa with a kitchen and a shaded terrace"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Easy boat or bus links for one or two day trips"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Quiet evenings, with a few good restaurants close to the sea"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Stay longer in one place"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Basing yourself in a single beach town for a week means fewer transfers and more time to settle into a gentle routine. You unpack once, learn the best swimming spots and quickly start to feel like a local."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Long stays often unlock better rates too. Many guesthouses offer a seventh night free, and you will have time to find the hidden coves, the best sunset bar and the bakery that sells out by nine every morning."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/quixotic-cta-island-bay-1920.avif",
+        "alt": "Traveller in a yellow dress overlooking a tropical island bay"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/quixotic-package-maldives-beach.avif",
+        "alt": "White-sand beach and palm-fringed villas on a tropical island"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Plan one highlight a day"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A boat trip, a market visit or a sunset dinner is plenty for one day. Leave the rest of your time open for swimming, reading under an umbrella and long lunches that stretch well into the afternoon."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Write a short wish list on the first evening, then choose one item each morning based on the weather and your mood. Some days that will be a snorkelling trip to a nearby reef, and on other days a simple walk along the sand is enough."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/quixotic-destination-bali-villas.webp",
+        "alt": "Wooden pier leading to overwater villas on clear lagoon water"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Eat and live like a local"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ask your host where their own family eats. Fresh seafood, seasonal fruit and simple grilled dishes taste better in a small family-run restaurant, and the bill is usually a fraction of a resort menu."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Shop at the morning market for breakfast fruit, local cheese and fresh bread. Chatting with the stallholders is the easiest way to pick up a few words of the language and hear about festivals in town."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Coming home rested"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A slow beach holiday rarely makes the busiest photo album, but it delivers what most of us need. You return home calm, well rested and already dreaming about going back next year."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Packing Smart: The Essential Carry-On Checklist for City Breaks",
+      "slug": "carry-on-checklist-city-breaks",
+      "summary": "Everything you need for a long weekend abroad, packed into one carry-on bag.",
+      "thumbnail": {
+        "url": "/images/cms/blog-3.webp",
+        "alt": "Orange suitcase with a hat and passport in front of the Eiffel Tower"
+      },
+      "authorName": "Cody Fisher",
+      "authorImage": {
+        "url": "/images/cms/blog-author-3.webp",
+        "alt": "Cody Fisher"
+      },
+      "readTime": "6 Min",
+      "publishedDate": "2026-11-05",
+      "category": "travel-tips",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why travel carry-on only"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Skipping the checked bag saves time at both ends of your journey. You walk straight past the luggage belt, avoid surprise fees and never worry about lost suitcases. On a long weekend in a European city, one well-packed bag is all you need."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Build a capsule wardrobe"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Two neutral colours so every top matches every pair of trousers"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Five light tops, two bottoms and one smart jacket for evenings"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "One pair of comfortable walking shoes and one pair of sandals"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A thin scarf that works as a wrap, pillow or beach towel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Keep documents together"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Store your passport, boarding passes and insurance details in one slim pouch that lives in the same pocket every day. Save digital copies offline on your phone, so a flat battery or weak signal never leaves you stuck."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Add a small card with your hotel address written in the local language. Taxi drivers appreciate it, and it is the quickest way back after a long day of exploring when your phone has run out of charge."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/curated-image.webp",
+        "alt": "Woman in a yellow dress exploring an old town square"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/quixotic-preloader-market.webp",
+        "alt": "Traveller walking past colourful vegetable stalls at a street market"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Master the liquids rule"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Most airports still limit liquids to small bottles in a clear bag. Swap shampoo, soap and conditioner for solid bars, and buy sunscreen at your destination, which frees space and avoids spills in your bag."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Decant your favourite creams into tiny reusable pots and label each one clearly. Pack the clear bag last, right at the top of your carry-on, so you can lift it out in seconds at security and keep the queue behind you moving smoothly and quickly."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/quixotic-package-riviera.avif",
+        "alt": "Colourful harbour village on the Italian coast"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Leave room for souvenirs"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Packing cubes compress clothing and keep your bag tidy, even after you repack it in a rush. Roll soft items instead of folding them, and fill your shoes with socks, chargers and other small things."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Aim to leave a quarter of your bag empty when you set off. That space soon fills with local coffee, a ceramic bowl from the market or a novel from a small secondhand bookshop."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Ready to go"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "With a simple checklist, packing for a city break takes less than an hour. Lay everything out the night before, remove one more item, zip up and enjoy the lighter journey ahead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Island Hopping in Thailand: A Two-Week Route for First-Timers",
+      "slug": "island-hopping-thailand-route",
+      "summary": "A relaxed two-week island route through the Andaman Sea, with ferry tips, where to stay and the best beaches on each stop.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-blog-4.webp",
+        "alt": "Wooden pier leading over turquoise water to a tropical island"
+      },
+      "authorName": "Emma Reed",
+      "authorImage": {
+        "url": "/images/cms/quixotic-blog-author-4.webp",
+        "alt": "Emma Reed"
+      },
+      "readTime": "5 Min",
+      "publishedDate": "2026-10-28",
+      "category": "destinations",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why the Andaman Sea"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Thailand's west coast strings together limestone cliffs, quiet coves and easy ferry links, which makes it the perfect first island route. Two weeks gives you time to see four islands without rushing, and every stop has its own personality and pace."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "What to book before you fly"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Your first three nights in Ao Nang, close to the Krabi pier"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Morning ferry seats between islands during the busy December peak"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A speedboat transfer to Koh Lipe, which often sells out quickly"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Travel insurance that covers boat trips, snorkelling and kayak tours"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Start slow in Krabi"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Spend three nights in Ao Nang to shake off the jet lag. Long-tail boats leave the beach every morning for Railay and the Hong Islands, so you can explore limestone lagoons and still be back for sunset."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "On your last Krabi day, take the early boat to Railay before the crowds arrive. Walk the short trail to Phra Nang Cave beach, swim in the clear shallows and watch climbers tackle the towering cliffs above."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/quixotic-package-thai.webp",
+        "alt": "Long-tail boats moored below a limestone rock in Krabi"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/quixotic-destination-thai-islands-card.avif",
+        "alt": "Longtail boats below limestone cliffs on a turquoise Thai bay"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Ferry routes that work"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Ferries between the main islands run daily from November to April. Book the morning departures, when the sea is calmer, and you will arrive in time for lunch and an afternoon swim at your new beach."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Krabi to Koh Phi Phi takes about two hours, Phi Phi to Koh Lanta another ninety minutes, and the speedboat south to Koh Lipe around four hours. Keep valuables in a dry bag and grab a seat on the shaded side of the deck."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/destination-thailand.webp",
+        "alt": "Wooden pier leading to overwater bungalows on a clear lagoon"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Where to stay on each island"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose small beachfront bungalows over big resorts. You will wake up a few steps from the water, pay less than at the chain hotels and support the local families who run them with real pride."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "On Koh Lanta, pick the quieter south of the island for long empty beaches. On Koh Lipe, stay near Sunrise Beach so you can walk to the reef, the restaurants and the speedboat pier without a taxi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Before you go"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Pack reef-safe sunscreen, a light rain jacket and enough cash for the smaller islands, where ATMs are rare. Leave one free day on every island, because the best plans often happen there."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chasing Waterfalls: Five Days on Iceland's Wild South Coast Road",
+      "slug": "iceland-south-coast-waterfalls",
+      "summary": "Plan a five-day drive along Iceland's Ring Road to see its most dramatic waterfalls, black sand beaches and glacier lagoons.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-blog-5.webp",
+        "alt": "Hiker in a red jacket facing a tall waterfall at sunset"
+      },
+      "authorName": "Noah Kim",
+      "authorImage": {
+        "url": "/images/cms/quixotic-blog-author-5.webp",
+        "alt": "Noah Kim"
+      },
+      "readTime": "7 Min",
+      "publishedDate": "2026-10-14",
+      "category": "adventure",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Why drive the south coast"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Iceland's south coast packs thundering waterfalls, black sand beaches and glacier lagoons into one easy stretch of the Ring Road. Five days lets you drive short distances, stop whenever the light is good and still reach Jokulsarlon before turning back west."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "What to pack for the road"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A fully waterproof jacket and trousers for the waterfall spray"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hiking boots with deep grip for wet rocks and gravel paths"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Warm base layers, a hat and gloves, even in the summer"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A reusable bottle, because the tap water is cold and excellent"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Day one: the hidden falls"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Pick up your rental car in Reykjavik and drive two hours east. Walk the muddy path behind Seljalandsfoss, where the curtain of water falls just a few metres in front of you, then dry off in the sun."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Follow the cliff path north for ten minutes to find Gljufrabui, a hidden waterfall tucked inside a narrow canyon. Wade through the shallow stream at the entrance and you will stand inside a cave of falling water."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/quixotic-destination-waterfall.avif",
+        "alt": "Skogafoss waterfall dropping from green cliffs onto a black gravel plain"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/about-image-1.webp",
+        "alt": "Traveller with raised arms at a jungle waterfall"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Day two: Skogafoss and Vik"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Climb the 500 steps beside Skogafoss for a view over the river valley. Fit hikers can continue on the trail past more than twenty smaller waterfalls, each one tumbling through a deeper green gorge."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "In the afternoon, drive to Reynisfjara to walk the black sand beach and see the basalt columns. Keep well back from the water, because sneaker waves arrive without warning, then spend a quiet night in the little village of Vik below the towering sea cliffs."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/quixotic-blog-iceland-lava-road.webp",
+        "alt": "White car crossing a black lava plain below snow-capped mountains in Iceland"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Planning the rest of your route"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Spend day three at Fjadrargljufur canyon and the moss-covered lava fields near Kirkjubaejarklaustur. Book a guided glacier hike at Skaftafell for day four, since walking on the ice alone is never safe."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "On day five, reach Jokulsarlon early to watch icebergs drift out to sea, then cross the road to Diamond Beach. Allow a full day for the five-hour drive back to Reykjavik with plenty of stops."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Best time to visit"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "June to August brings near-endless daylight and open mountain roads. September offers fewer crowds, autumn colours and the first real chance of seeing the northern lights dancing over the coast."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Planning Your First Trip Together Without Stress or Arguments",
+      "slug": "first-trip-together-planning",
+      "summary": "Simple ways for couples and friends to agree on a budget, share the planning and enjoy every day of their first trip together.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-blog-6.webp",
+        "alt": "Smiling couple with backpacks reading a map in a forest"
+      },
+      "authorName": "Ava Patel",
+      "authorImage": {
+        "url": "/images/cms/quixotic-blog-author-6.webp",
+        "alt": "Ava Patel"
+      },
+      "readTime": "4 Min",
+      "publishedDate": "2026-09-30",
+      "category": "travel-tips",
+      "contentPart1": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Start with a shared vision"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Before anyone opens a booking site, sit down together and describe your perfect day away. One of you may picture lazy beach mornings, the other busy city streets. Finding the overlap early saves hours of debate and makes every later decision easier."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Split the planning fairly"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "One person books the flights, airport transfers and travel insurance"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The other researches stays, neighbourhoods and the best local cafes"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Choose the restaurants, day trips and evening plans together each week"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Keep every booking and receipt in one shared online folder"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Agree on the budget first"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Talk about money before you talk about destinations. Set a daily amount for food, transport and activities, and agree how you will split shared costs, so nobody has to keep score while you are away on holiday."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Leave a little room in the budget for surprises. A spontaneous boat trip or a special dinner can become the best memory of the holiday, and it feels far better when it fits the plan you made together."
+            }
+          ]
+        }
+      ],
+      "imagePairLeft": {
+        "url": "/images/cms/hero-bg.avif",
+        "alt": "Two hikers smiling on a mountain trail"
+      },
+      "imagePairRight": {
+        "url": "/images/cms/quixotic-hero-collage-map.webp",
+        "alt": "Couple reading a paper map together on a sunny street"
+      },
+      "contentPart2": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Each person picks one must-do"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Let each traveller choose one experience that is not up for debate. A cooking class, a sunrise hike or a day at the spa gives everyone something personal to look forward to during the trip."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Put both choices in the calendar first and plan the rest of the days around them. When the trip includes something each of you truly wanted, the smaller compromises feel easy, and you will find it simpler to say yes to new ideas along the way."
+            }
+          ]
+        }
+      ],
+      "wideImage": {
+        "url": "/images/cms/quixotic-hero-collage-island.avif",
+        "alt": "Two hikers on a rocky lookout above an island-dotted bay"
+      },
+      "contentPart3": [
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Keep the days relaxed"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Back-to-back sightseeing tires everyone out, even the most energetic traveller. Plan a free afternoon every few days to rest, wander without a map or simply sit in a cafe and watch the city go by."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Expect at least one thing to go wrong, from a late train to a rainy beach day. Agree to laugh it off, find a backup plan together and never let small delays spoil a whole day."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "children": [
+            {
+              "type": "text",
+              "text": "Final thoughts"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The best first trips are not the most planned ones. They are the ones where both of you feel heard, share the small decisions and come home talking about the next adventure."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "name": "Kyoto Heritage Journey",
+      "slug": "kyoto-heritage-journey",
+      "summary": "Ryokan nights in Gion, dawn walks under torii gates and slow kaiseki dinners.",
+      "metaDescription": "Six unhurried days in Kyoto: a ryokan in Gion, Fushimi Inari at dawn, the Arashiyama bamboo grove, a tea ceremony, sake tasting and fine kaiseki dinners.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-package-kyoto.avif",
+        "alt": "Vermilion shrine gate in Kyoto on a clear morning"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-kyoto-autumn.avif",
+          "alt": "Five-storey pagoda framed by red autumn maples"
+        },
+        {
+          "url": "/images/cms/quixotic-package-kyoto-spring.avif",
+          "alt": "Pagoda roofs behind pink cherry blossom in spring"
+        },
+        {
+          "url": "/images/cms/quixotic-package-kyoto-torii-1000.avif",
+          "alt": "Vermilion torii gate at the foot of stone steps in a Kyoto forest"
+        },
+        {
+          "url": "/images/cms/quixotic-package-kyoto-bamboo.avif",
+          "alt": "Sunlight through the tall bamboo grove of Arashiyama"
+        }
+      ],
+      "location": "Kyoto, Japan",
+      "duration": "6 Days / 5 Nights",
+      "price": "$2,499",
+      "rating": "4.8",
+      "reviewCount": "320+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Six unhurried days in Japan’s old imperial capital. Sleep in a family-run ryokan in Gion, walk the torii gates of Fushimi Inari before the crowds, and spend your evenings over kaiseki dinners and quiet lantern-lit lanes."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Designed for travellers who want culture without the rush, every day pairs a guided morning with a free afternoon. Use the spare hours for hidden tea houses, a pottery class near Kiyomizu-dera and slow evening walks along the Kamo River as the city lights up."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "5 nights in a boutique ryokan",
+        "wellness": "Private onsen access",
+        "entryFees": "All temple & garden entry fees",
+        "guide": "English-speaking local guide",
+        "meals": "Daily breakfast + 3 kaiseki dinners",
+        "tasting": "Sake tasting in Fushimi",
+        "transfers": "Return airport transfers",
+        "boatTrip": "Hozugawa river boat cruise"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival in Kyoto · Tea ceremony welcome",
+          "details": "Private transfer from Kansai Airport, check in to your ryokan in Gion, then an evening tea ceremony with a local master before a quiet dinner in the old town."
+        },
+        {
+          "title": "Fushimi Inari at dawn & Nishiki Market",
+          "details": "Walk the thousand torii gates before the crowds arrive, then join a guided food walk through Nishiki, the covered market known as Kyoto’s kitchen."
+        },
+        {
+          "title": "Arashiyama bamboo grove & river boat",
+          "details": "Morning in the bamboo forest and Tenryu-ji garden, followed by a slow Hozugawa river cruise."
+        }
+      ],
+      "additionalInfo": "Please note: tours may be rescheduled for heavy rain or typhoon warnings. Temples involve many stairs, so comfortable shoes and a light layer are recommended.",
+      "tripType": "Culture",
+      "region": "Asia",
+      "homeTabs": {
+        "europe": false,
+        "asia": true,
+        "africa": false,
+        "americas": true
+      },
+      "createdAt": "2026-11-10T17:13:22.000Z"
+    },
+    {
+      "name": "Amalfi Coastal Days",
+      "slug": "amalfi-coastal-slow-days",
+      "summary": "Cliffside villages, lemon groves and long seafood lunches above the Tyrrhenian Sea.",
+      "metaDescription": "A slow week on the Amalfi Coast: a sea-view garden hotel in Positano, the Path of the Gods hike, a private boat day to Capri and a lemon grove cooking class.",
+      "thumbnail": {
+        "url": "/images/cms/package-2.avif",
+        "alt": "Garden terrace of a boutique hotel on the Amalfi Coast"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-riviera.avif",
+          "alt": "Colourful harbour village on the Italian coast"
+        },
+        {
+          "url": "/images/cms/curated-image.webp",
+          "alt": "Woman in a yellow dress exploring an old town square"
+        },
+        {
+          "url": "/images/cms/quixotic-package-amalfi-village-1000.avif",
+          "alt": "Clifftop village above a turquoise bay on the Italian coast"
+        },
+        {
+          "url": "/images/cms/quixotic-package-amalfi-steps.avif",
+          "alt": "Stone steps winding down to a coastal town and the sea"
+        }
+      ],
+      "location": "Amalfi Coast, Italy",
+      "duration": "7 Days / 6 Nights",
+      "price": "$2,890",
+      "rating": "4.9",
+      "reviewCount": "410+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Seven slow days on Italy’s most beautiful coastline. Stay in a family-run garden hotel above Positano, hike the Path of the Gods at sunrise, and spend long afternoons over seafood lunches in tiny harbour trattorias."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Built for travellers who would rather linger than rush, each day mixes one guided outing with free time by the sea. Spend the spare hours swimming from the rocks, browsing ceramic shops in Vietri or sipping limoncello on a terrace as the bells ring out."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "6 nights in a sea-view hotel",
+        "wellness": "Private terrace with sun loungers",
+        "entryFees": "Ravello villa garden entry fees",
+        "guide": "Local guide for coastal hikes",
+        "meals": "Daily breakfast + 2 seafood dinners",
+        "tasting": "Limoncello tasting in Amalfi",
+        "transfers": "Return Naples airport transfers",
+        "boatTrip": "Private boat day around Capri"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival in Positano · Sunset aperitivo",
+          "details": "Private transfer from Naples along the coast road, check in to your garden hotel above the beach, then an aperitivo on the terrace as the village lights come on."
+        },
+        {
+          "title": "Path of the Gods & Nocelle lunch",
+          "details": "A guided morning hike high above the sea from Bomerano to Nocelle, then a long lunch and the old stone steps back down to Positano."
+        },
+        {
+          "title": "Capri by private boat & hidden coves",
+          "details": "Swim in quiet coves, sail past the Faraglioni rocks and stop for lunch in Marina Piccola."
+        }
+      ],
+      "additionalInfo": "Please note: boat days depend on sea conditions and may move. The coast is steep and full of steps, so pack light shoes.",
+      "tripType": "Food & Wine",
+      "region": "Europe",
+      "homeTabs": {
+        "europe": true,
+        "asia": true,
+        "africa": false,
+        "americas": false
+      },
+      "createdAt": "2026-11-10T17:13:23.000Z"
+    },
+    {
+      "name": "Swiss Alpine Villages",
+      "slug": "swiss-alpine-villages",
+      "summary": "Chalet stays, cogwheel trains and lakeside walks beneath the Eiger.",
+      "metaDescription": "Eight days in the Bernese Oberland: chalet stays in Grindelwald and Wengen, the Jungfraujoch railway, cliff walks, lake cruises and a Swiss Travel Pass.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-package-alps.webp",
+        "alt": "Snow-capped Swiss Alps above a green valley"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/destination-switzerland.webp",
+          "alt": "Alpine chalets below the Matterhorn in Switzerland"
+        },
+        {
+          "url": "/images/cms/blog-1.webp",
+          "alt": "Traveller reading a map beside a mountain lake"
+        },
+        {
+          "url": "/images/cms/quixotic-package-swiss-meadow-cabin.avif",
+          "alt": "Wooden chalet in a green alpine valley below snowy peaks"
+        },
+        {
+          "url": "/images/cms/quixotic-package-swiss-wildflowers.avif",
+          "alt": "Yellow wildflower meadow beneath the Swiss Alps"
+        }
+      ],
+      "location": "Bernese Oberland, Switzerland",
+      "duration": "8 Days / 7 Nights",
+      "price": "$3,180",
+      "rating": "4.9",
+      "reviewCount": "275+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Eight days among the classic villages of the Bernese Oberland. Stay in family-run chalets in Grindelwald and Wengen, ride cogwheel trains to glacier viewpoints, and end each day with fondue as the Eiger turns pink."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Planned for walkers of every level, mornings bring a guided hike or rail excursion and afternoons stay free. Use the extra time to paddle in Bachalpsee, visit a cheese dairy above Lauterbrunnen or simply sit on your balcony with a view of thundering waterfalls."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "7 nights in family-run chalets",
+        "wellness": "Spa access in Grindelwald",
+        "entryFees": "Swiss Travel Pass + mountain lifts",
+        "guide": "Certified alpine walking guide",
+        "meals": "Daily breakfast + 4 chalet dinners",
+        "tasting": "Cheese and wine tasting",
+        "transfers": "Return Zurich rail transfers",
+        "boatTrip": "Lake Brienz boat cruise"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival in Interlaken · Lakeside stroll",
+          "details": "Scenic train from Zurich Airport to Interlaken, check in to your chalet hotel, then an easy evening walk along the Aare between Lake Thun and Lake Brienz."
+        },
+        {
+          "title": "Grindelwald First cliff walk & Bachalpsee",
+          "details": "Ride the gondola up to First for the famous cliff walk, then a gentle guided hike to the mirror-still Bachalpsee lake and back down."
+        },
+        {
+          "title": "Jungfraujoch · The top of Europe",
+          "details": "Ride the cogwheel railway to 3,454 m for the Aletsch glacier and the Sphinx terrace."
+        }
+      ],
+      "additionalInfo": "Please note: high excursions may swap days in cloudy weather. Mountain air is cool even in summer, so bring a warm layer and sturdy shoes.",
+      "tripType": "Adventure",
+      "region": "Europe",
+      "homeTabs": {
+        "europe": true,
+        "asia": false,
+        "africa": true,
+        "americas": false
+      },
+      "createdAt": "2026-11-10T17:13:23.000Z"
+    },
+    {
+      "name": "Bali Island Escape",
+      "slug": "bali-island-escape",
+      "summary": "Private pool villas, rice-terrace walks and sunrise yoga in the heart of Ubud.",
+      "metaDescription": "Six days in Bali: a private pool villa in Ubud, Tegallalang rice terraces, a water temple blessing, sunrise yoga, Uluwatu cliffs and a Kecak fire dance.",
+      "thumbnail": {
+        "url": "/images/cms/package-3.avif",
+        "alt": "Private pool villa surrounded by tropical gardens in Bali"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-cta-island-bay-1920.avif",
+          "alt": "Traveller in a yellow dress overlooking a tropical island bay"
+        },
+        {
+          "url": "/images/cms/blog-2.webp",
+          "alt": "Traveller in a sun hat relaxing on a deck chair by the sea"
+        },
+        {
+          "url": "/images/cms/quixotic-package-bali-temple.webp",
+          "alt": "Carved Balinese temple tower above misty jungle hills"
+        },
+        {
+          "url": "/images/cms/quixotic-package-bali-pool-villa-800.avif",
+          "alt": "Private pool villa surrounded by tropical jungle from above"
+        }
+      ],
+      "location": "Ubud, Indonesia",
+      "duration": "6 Days / 5 Nights",
+      "price": "$1,990",
+      "rating": "4.9",
+      "reviewCount": "450+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Six slow, romantic days on the Island of the Gods. Begin in a private pool villa in the jungle above Ubud, walk green rice terraces at sunrise, and end on the southern cliffs watching a Kecak dance."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Created for couples and friends who want rest as much as discovery, each day pairs a guided morning with a free afternoon. Spend the spare hours at a jungle spa, wandering the Ubud art market or learning to make offerings with a village family."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "5 nights in private pool villas",
+        "wellness": "Balinese spa treatment for two",
+        "entryFees": "All temple and terrace entry fees",
+        "guide": "Private English-speaking driver",
+        "meals": "Daily breakfast + 2 villa dinners",
+        "tasting": "Luwak coffee plantation tasting",
+        "transfers": "Return Denpasar airport transfers",
+        "boatTrip": "Sunset boat trip to Nusa Lembongan"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival in Ubud · Villa welcome",
+          "details": "Private transfer from Denpasar to your pool villa in the jungle, a welcome flower bath and a candlelit dinner overlooking the valley as the frogs begin to sing."
+        },
+        {
+          "title": "Rice terraces & a water temple blessing",
+          "details": "A guided morning walk through the Tegallalang terraces, then a purification blessing at Tirta Empul and a long lunch with a view of the volcano."
+        },
+        {
+          "title": "Uluwatu cliffs & Kecak fire dance",
+          "details": "An afternoon on Padang Padang beach, then the Kecak dance at the clifftop temple at sunset."
+        }
+      ],
+      "additionalInfo": "Please note: temple visits require covered shoulders and knees, and sarongs are provided. Afternoon showers are common, so pack a light rain jacket and sandals.",
+      "tripType": "Honeymoon",
+      "region": "Asia",
+      "homeTabs": {
+        "europe": false,
+        "asia": true,
+        "africa": true,
+        "americas": true
+      },
+      "createdAt": "2026-11-10T17:14:01.000Z"
+    },
+    {
+      "name": "Serengeti Safari Lodge",
+      "slug": "serengeti-safari-lodge",
+      "summary": "Tented lodges on the open plains, daily game drives and a sunrise balloon flight.",
+      "metaDescription": "Six days on safari in Tanzania: luxury tented lodges in the Serengeti, twice-daily game drives with expert guides, the great migration and a sunrise balloon.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-package-serengeti.avif",
+        "alt": "Giraffe under acacia trees in the sunlit Serengeti"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-serengeti-elephants.avif",
+          "alt": "Elephants walking across the savanna grassland"
+        },
+        {
+          "url": "/images/cms/about-image-1.webp",
+          "alt": "Traveller with raised arms at a jungle waterfall"
+        },
+        {
+          "url": "/images/cms/quixotic-package-serengeti-zebra.webp",
+          "alt": "Zebra grazing on the savanna under a red sunset sky"
+        },
+        {
+          "url": "/images/cms/quixotic-package-serengeti-cheetah.webp",
+          "alt": "Cheetah resting in tall golden grass"
+        }
+      ],
+      "location": "Serengeti, Tanzania",
+      "duration": "6 Days / 5 Nights",
+      "price": "$3,950",
+      "rating": "4.9",
+      "reviewCount": "210+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Six days in one of the last great wildernesses on earth. Stay in luxury tented lodges on the open plains, follow the great migration with expert guides, and fall asleep to the distant calls of lions after dinner."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Built for wildlife lovers who also want comfort, days start early with a game drive and slow down in the afternoon heat. Spend the quiet hours by the lodge pool, visiting a Maasai village with a local host or sketching the plains from your veranda."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "5 nights in luxury tented lodges",
+        "wellness": "Lodge pool and spa access",
+        "entryFees": "All national park entry fees",
+        "guide": "Expert private safari guide",
+        "meals": "Full board with bush breakfasts",
+        "tasting": "Sundowner tasting on the plains",
+        "transfers": "Return Arusha flight transfers",
+        "boatTrip": "Lake Victoria canoe trip"
+      },
+      "itinerary": [
+        {
+          "title": "Fly into the Serengeti · Evening drive",
+          "details": "A light aircraft flight from Arusha onto the plains, lunch at your tented lodge, then a first evening game drive to look for lions, giraffes and elephants."
+        },
+        {
+          "title": "Following the great migration herds",
+          "details": "A full day tracking the wildebeest and zebra herds with your guide, with a long picnic lunch under an acacia tree on the open plains."
+        },
+        {
+          "title": "Sunrise balloon over the plains",
+          "details": "Lift off at dawn for a silent flight above the savanna and a champagne breakfast."
+        }
+      ],
+      "additionalInfo": "Please note: game drives start early and roads are bumpy, so travel light in soft bags. Neutral colours, a warm fleece and binoculars are recommended.",
+      "tripType": "Adventure",
+      "region": "Africa",
+      "homeTabs": {
+        "europe": false,
+        "asia": false,
+        "africa": true,
+        "americas": true
+      },
+      "createdAt": "2026-11-12T20:02:03.000Z"
+    },
+    {
+      "name": "Seychelles Island Beaches",
+      "slug": "seychelles-island-beaches",
+      "summary": "Island-hop between Mahe, Praslin and La Digue on granite-boulder beaches.",
+      "metaDescription": "Eight days in the Seychelles: beach villas on Mahe, Praslin and La Digue, island ferries, the Vallee de Mai palm forest and cycling to Anse Source d’Argent.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-package-seychelles.avif",
+        "alt": "Granite boulders and turquoise water on a Seychelles beach"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-seychelles-hammock-1000.avif",
+          "alt": "Hammock strung between palm trees on a quiet beach"
+        },
+        {
+          "url": "/images/cms/quixotic-cta-island-bay-1920.avif",
+          "alt": "Traveller in a yellow dress overlooking a tropical island bay"
+        },
+        {
+          "url": "/images/cms/quixotic-package-seychelles-catamarans.webp",
+          "alt": "Three catamarans sailing on a turquoise sea"
+        },
+        {
+          "url": "/images/cms/quixotic-package-seychelles-palm-beach.avif",
+          "alt": "Palm trees and granite rocks along a quiet tropical beach"
+        }
+      ],
+      "location": "La Digue, Seychelles",
+      "duration": "8 Days / 7 Nights",
+      "price": "$3,290",
+      "rating": "4.9",
+      "reviewCount": "170+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Eight days across three of the most beautiful islands in the Indian Ocean. Stay in beach villas on Mahe, Praslin and La Digue, swim between pink granite boulders, and cycle sandy lanes to empty beaches."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Planned for travellers who want paradise at an easy pace, every day offers one guided outing and long hours on the sand. Fill the gaps with snorkelling in calm lagoons, a Creole cooking lesson with a local family or a sunset walk at Anse Lazio."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "7 nights in island beach villas",
+        "wellness": "Daily sunset yoga on the beach",
+        "entryFees": "Vallee de Mai reserve entry",
+        "guide": "Local naturalist guide",
+        "meals": "Daily breakfast + 3 Creole dinners",
+        "tasting": "Takamaka rum distillery tasting",
+        "transfers": "Inter-island ferries and transfers",
+        "boatTrip": "Catamaran day to Curieuse Island"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival on Mahe · Beau Vallon sunset",
+          "details": "Private transfer to your beach villa on Mahe, a long swim at Beau Vallon and a grilled fish dinner on the sand as the sun sinks into the ocean."
+        },
+        {
+          "title": "Ferry to Praslin & the Vallee de Mai",
+          "details": "Cross to Praslin by fast ferry, then walk the ancient palm forest with a ranger to find the famous coco de mer and black parrots."
+        },
+        {
+          "title": "Cycling La Digue’s boulder beaches",
+          "details": "Collect your bike on La Digue and ride to Anse Source d’Argent for a swim."
+        }
+      ],
+      "additionalInfo": "Please note: ferries can be choppy in the trade wind season from May to September. Pack reef shoes, reef-safe sunscreen and light layers.",
+      "tripType": "Beach & Islands",
+      "region": "Africa",
+      "homeTabs": {
+        "europe": true,
+        "asia": true,
+        "africa": true,
+        "americas": false
+      },
+      "createdAt": "2026-11-12T20:03:13.000Z"
+    },
+    {
+      "name": "Machu Picchu Discovery",
+      "slug": "machu-picchu-and-the-sacred-valley",
+      "summary": "Colonial Cusco, Andean markets and the Inca citadel with a private guide.",
+      "metaDescription": "Seven days in Peru: boutique hotels in Cusco and the Sacred Valley, Pisac market, the Moray terraces, the panoramic train and a guided visit to Machu Picchu.",
+      "thumbnail": {
+        "url": "/images/cms/quixotic-package-machu-picchu.avif",
+        "alt": "Machu Picchu ruins and green terraces on a sunny morning"
+      },
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-machu-picchu-terrace.avif",
+          "alt": "Stone terrace overlooking the peaks around Machu Picchu"
+        },
+        {
+          "url": "/images/cms/blog-1.webp",
+          "alt": "Traveller reading a map beside a mountain lake"
+        },
+        {
+          "url": "/images/cms/quixotic-package-machu-picchu-steps.avif",
+          "alt": "Stone stairs and terraces of Machu Picchu in the mist"
+        },
+        {
+          "url": "/images/cms/quixotic-package-machu-picchu-llamas.webp",
+          "alt": "Alpaca standing above Andean farm terraces"
+        }
+      ],
+      "location": "Cusco, Peru",
+      "duration": "7 Days / 6 Nights",
+      "price": "$2,960",
+      "rating": "4.9",
+      "reviewCount": "310+ reviews",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A week in the heart of the Inca world. Acclimatise slowly in a boutique hotel in the Sacred Valley, browse colourful Andean markets, then ride the panoramic train to explore Machu Picchu with your own private guide."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Shaped for curious travellers who want history at a gentle pace, each day pairs a guided morning with a relaxed afternoon. Use the spare hours for a weaving workshop in Chinchero, a coca tea on a sunny plaza or a walk through old Cusco."
+            }
+          ]
+        }
+      ],
+      "inclusions": {
+        "stay": "6 nights in boutique hotels",
+        "wellness": "Hot spring visit in Aguas Calientes",
+        "entryFees": "Machu Picchu and site entry fees",
+        "guide": "Private bilingual Inca guide",
+        "meals": "Daily breakfast + 3 Andean dinners",
+        "tasting": "Pisco sour tasting class",
+        "transfers": "Return Cusco airport transfers",
+        "boatTrip": "Urubamba river rafting trip"
+      },
+      "itinerary": [
+        {
+          "title": "Arrival in Cusco · Sacred Valley rest",
+          "details": "Private transfer down into the valley to rest at a lower altitude, with coca tea on arrival and a gentle afternoon walk along the Urubamba River at your lodge."
+        },
+        {
+          "title": "Pisac market & the Moray terraces",
+          "details": "Browse the Pisac market, visit the circular Inca terraces of Moray and the shimmering Maras salt pans before a long farm lunch in the valley."
+        },
+        {
+          "title": "Panoramic train to Machu Picchu",
+          "details": "Ride the glass-roofed train through the gorge, then explore the citadel with your guide."
+        }
+      ],
+      "additionalInfo": "Please note: Cusco sits at 3,400 m, so the trip starts lower in the valley to help you adjust. Pack layers and sun protection.",
+      "tripType": "Culture",
+      "region": "Americas",
+      "homeTabs": {
+        "europe": true,
+        "asia": false,
+        "africa": false,
+        "americas": true
+      },
+      "createdAt": "2026-11-12T20:03:17.000Z"
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Kyoto",
+      "slug": "kyoto",
+      "tagline": "Temples, tea houses and maple valleys",
+      "summary": "Walk lantern-lit lanes, sip matcha in quiet tea houses and watch maple valleys turn red in Kyoto, the old imperial capital and cultural heart of Japan.",
+      "heroText": "Discover temples, tea houses and maple valleys in Japan's old capital, from moss gardens to lively food markets",
+      "cardImage": {
+        "url": "/images/cms/quixotic-package-kyoto.avif",
+        "alt": "Vermilion shrine gate in Kyoto on a clear morning"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-kyoto.avif",
+        "alt": ""
+      },
+      "tourCount": "12+ Tours",
+      "bestTimeToVisit": "March - May, Oct - Nov",
+      "climate": "Temperate",
+      "startingPrice": "$2,499",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Kyoto was Japan's capital for over a thousand years, and its old soul still shows on every street. Wooden townhouses, raked stone gardens and more than 1,600 temples sit between modern avenues, so one short walk can lead from a busy market to a silent moss garden with a trickling bamboo water spout. Come for the culture, the crafts and the seasonal food, then stay for the slow, lantern-lit evenings in the old Gion district."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "See the vermilion torii gates of Fushimi Inari before the morning crowds arrive"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stay in a family-run ryokan with tatami rooms, kimono robes and a hot spring bath"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Taste seasonal kaiseki dinners, matcha sweets and street snacks in Nishiki Market"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Catch soft cherry blossom in spring or fiery red maple valleys in late autumn"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Walk the Arashiyama bamboo grove at sunrise, well before the tour buses arrive."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Join a tea ceremony led by a local master in a historic tea house."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Explore the geisha district of Gion along lantern-lit Hanamikoji Street."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "See the golden Kinkaku-ji pavilion reflected in its mirror pond."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Our Kyoto planners live in the Kansai region and book small, family-run ryokans that rarely appear on big booking sites. Every tour starts early to beat the crowds at the famous temples, while afternoons stay free so you can wander the old lanes at your own pace."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "You also get a pocket Wi-Fi, a preloaded IC travel card and an English-speaking contact on call for the whole trip. If plans change, we rebook trains, guides and restaurant tables for you, so a rainy day becomes a museum and tea house day instead of a lost one in the city."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stays range from boutique ryokans in Gion to modern city hotels"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Buses and the subway reach every major sight across the whole city"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Many temples close by 5 pm, so plan the famous gardens for mornings"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Most visitors from the US, UK and EU need no visa for short trips"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Nara and its friendly deer are an easy day trip, 45 minutes by train"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/quixotic-package-kyoto-autumn.avif",
+          "alt": "Five-storey pagoda framed by red autumn maples"
+        },
+        {
+          "url": "/images/cms/destination-japan.webp",
+          "alt": "Pagoda in front of snow-capped Mount Fuji"
+        },
+        {
+          "url": "/images/cms/quixotic-package-kyoto-spring.avif",
+          "alt": "Pagoda roofs behind pink cherry blossom in spring"
+        }
+      ],
+      "packages": [
+        "kyoto-heritage-journey",
+        "bali-island-escape"
+      ],
+      "createdAt": "2026-11-10T17:53:16.000Z"
+    },
+    {
+      "name": "Amalfi Coast",
+      "slug": "amalfi-coast",
+      "tagline": "Cliffside villages and lemon groves",
+      "summary": "Pastel villages stacked on sea cliffs, lemon groves, boat days to Capri and long seafood lunches make the Amalfi Coast Italy's most romantic shoreline.",
+      "heroText": "Explore pastel cliff villages, lemon groves and hidden coves, from Capri boat days to long seaside lunches in Italy",
+      "cardImage": {
+        "url": "/images/cms/quixotic-package-riviera.avif",
+        "alt": "Colourful harbour village on the Italian coast"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-amalfi-coast-1920.avif",
+        "alt": ""
+      },
+      "tourCount": "9+ Tours",
+      "bestTimeToVisit": "May - June, September",
+      "climate": "Mediterranean",
+      "startingPrice": "$2,890",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "South of Naples, the Amalfi Coast winds for fifty kilometres between steep green mountains and a deep blue sea. Positano, Amalfi and Ravello cling to the cliffs in shades of peach and lemon, linked by one dramatic coastal road and a fleet of small, busy ferries. Days here are about wide sea views, morning swims in clear coves and long dinners that last until the village lights come on above the harbour."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Swim in quiet turquoise coves that you can only reach by a private wooden boat"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hike the Path of the Gods trail high above the sea and the terraced lemon groves"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Eat fresh pasta, creamy mozzarella and lemon desserts at family-run trattorias"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Base yourself in a garden hotel with a sunny terrace hanging over the blue water"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Spend a private boat day around Capri and the famous Faraglioni sea rocks."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Walk the Path of the Gods from the hills of Bomerano down to Positano."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Take a hands-on pasta and pizza cooking class in a Ravello villa garden."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Taste homemade limoncello at a family lemon farm above Amalfi."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Summer on the coast books out months ahead, so our local partners hold rooms in small sea-view hotels and reserve ferry and boat slots for you. That means no long queues at the busy piers and no endless searching for a free table at sunset on a warm July evening."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Private transfers from Naples airport are included, which saves you the famous traffic jams on the coast road. Our team also books beach club loungers, guided hikes and dinner tables, and a local host is a phone call away if the sea turns rough and a boat day needs to move."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hotels range from family-run B&Bs to clifftop luxury retreats by the sea"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ferries are the easiest way to travel between villages in summer"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Expect many steps, so pack light walking shoes and a small daypack"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Beach clubs and loungers need booking well ahead in July and August"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Pompeii and Naples are both easy day trips from the coast"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/curated-image.webp",
+          "alt": "Woman in a yellow dress exploring an old town square"
+        },
+        {
+          "url": "/images/cms/about-image-2.webp",
+          "alt": "Smiling woman with a backpack on a coastal cliff"
+        },
+        {
+          "url": "/images/cms/quixotic-destination-coast-village.avif",
+          "alt": "Colourful cliffside village above a rocky Mediterranean coast"
+        }
+      ],
+      "packages": [
+        "amalfi-coastal-slow-days",
+        "swiss-alpine-villages"
+      ],
+      "createdAt": "2026-11-10T17:53:17.000Z"
+    },
+    {
+      "name": "Swiss Alps",
+      "slug": "swiss-alps",
+      "tagline": "Chalets, glaciers and scenic trains",
+      "summary": "Ride cogwheel trains to glacier viewpoints, hike flower meadows below the Eiger and sleep in wooden chalets in the classic villages of the Swiss Alps.",
+      "heroText": "Discover chalet villages, glaciers and scenic trains, from flower meadows to sunrise views of the famous Matterhorn",
+      "cardImage": {
+        "url": "/images/cms/quixotic-package-alps.webp",
+        "alt": "Snow-capped Swiss Alps above a green valley"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-swiss-alps-1920.avif",
+        "alt": ""
+      },
+      "tourCount": "8+ Tours",
+      "bestTimeToVisit": "June - September",
+      "climate": "Alpine",
+      "startingPrice": "$3,180",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "The Swiss Alps pack glaciers, turquoise lakes and car-free villages into a small, beautifully connected area. Trains, boats and cable cars run like clockwork, so you can wake in a Grindelwald chalet, lunch by the shore of Lake Brienz and still catch sunset from a mountain terrace. Summer brings wildflowers and easy hikes, while winter turns every snowy slope into a lively ski and sledging playground."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ride the train up to the Jungfraujoch, the highest railway station in Europe"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Walk gentle trails past wildflower meadows, wooden barns and grazing dairy cows"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Travel everywhere by scenic train, boat and bus with a single Swiss Travel Pass"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Warm up with cheese fondue and warm raclette in cosy family-run mountain chalets"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ride the cogwheel railway up to the vast Aletsch glacier viewpoint at the top."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cross the First cliff walk, then hike up to the calm Bachalpsee lake."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cruise across the turquoise Lake Brienz to the roaring Giessbach waterfalls."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Watch the Matterhorn turn pink at sunrise above Zermatt village."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "We plan your route around the mountain weather, so high excursions stay flexible and move to clear days at no extra cost. Your luggage travels ahead between villages by train, which means you only carry a light day pack as you hike from one green valley to the next."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Every trip includes a Swiss Travel Pass and chalet stays chosen by our Alpine specialists, who have walked every trail they suggest. You also get a local contact on call, mountain lift tickets booked in advance and restaurant tips for the best rosti and fondue in each village."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stays range from wooden chalets to grand old lakeside hotels in town"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Swiss Travel Pass covers most trains, boats and city buses"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Mountain weather changes fast, so pack warm layers and a jacket"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cards are accepted almost everywhere, even in the small villages"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Lucerne and Bern are easy day trips from Interlaken by train"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/destination-switzerland.webp",
+          "alt": "Alpine chalets below the Matterhorn in Switzerland"
+        },
+        {
+          "url": "/images/cms/blog-1.webp",
+          "alt": "Traveller reading a map beside a mountain lake"
+        },
+        {
+          "url": "/images/cms/quixotic-destination-alpine-village.avif",
+          "alt": "Alpine chalets and a wildflower meadow below a snowy peak"
+        }
+      ],
+      "packages": [
+        "swiss-alpine-villages",
+        "amalfi-coastal-slow-days"
+      ],
+      "createdAt": "2026-11-10T17:53:18.000Z"
+    },
+    {
+      "name": "Lofoten Islands",
+      "slug": "lofoten-islands",
+      "tagline": "Fjords, fishing cabins and midnight sun",
+      "summary": "Granite peaks rise straight from the sea in Arctic Norway. Sleep in red fishing cabins, hike ridge trails and kayak empty beaches in the Lofoten Islands.",
+      "heroText": "Explore Arctic fjords, red fishing cabins and granite peaks, from midnight sun hikes to northern lights nights",
+      "cardImage": {
+        "url": "/images/cms/quixotic-package-lofoten.avif",
+        "alt": "Red fishing cabins below granite peaks in Lofoten"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-lofoten-islands-1920.avif",
+        "alt": ""
+      },
+      "tourCount": "6+ Tours",
+      "bestTimeToVisit": "June - August, Feb - March",
+      "climate": "Subarctic",
+      "startingPrice": "$2,150",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Above the Arctic Circle, the Lofoten Islands look like a mountain range that sank into the sea. Bright red fishing cabins sit on stilts below sharp granite peaks, and white sandy beaches glow turquoise on clear days. Summer brings the midnight sun and long ridge hikes, while late winter brings snowy summits, quiet empty roads and green northern lights dancing over the deep, silent fjords at night."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Sleep in a traditional red rorbu fishing cabin right on the water's edge"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Hike ridge trails with wide views over fjords, white beaches and fishing villages"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "See the endless midnight sun in summer or the green northern lights in late winter"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Eat the freshest cod, Arctic char and creamy fish soup you will find in Norway"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Climb the stone steps of Reinebringen for the classic view over Reine village."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Kayak calm fjord water past sea eagles, seals and empty sandy bays."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Take a small local ferry across the fjord to the white sands of Bunes beach."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Warm up in a waterside sauna, then take a quick dip in the Arctic sea."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Cabins in the best villages sell out early, and Arctic weather changes by the hour. Our Norway team books seafront rorbu stays months ahead and keeps each day flexible, so hikes, boat trips and photo stops always move to the clearest skies of your week in the islands."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "A rental car and a local host on call are included, giving you freedom on the islands with real support close by. We also share offline maps, tide times and an aurora forecast guide, and we rebook ferries or tours for you if a big storm rolls in from the open Norwegian Sea."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stays range from simple rorbu cabins to design hotels by the sea"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A car is the best way to drive the scenic E10 road between islands"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Pack warm layers and a windproof jacket, even in the middle of summer"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Shops and cafes in small villages keep short opening hours"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Henningsvaer and Nusfjord make easy, scenic day trips by car"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/hero-bg.avif",
+          "alt": "Two hikers smiling on a mountain trail"
+        },
+        {
+          "url": "/images/cms/process-image.avif",
+          "alt": "Two travelers reading a map in a forest"
+        },
+        {
+          "url": "/images/cms/quixotic-destination-waterfall.avif",
+          "alt": "Skogafoss waterfall dropping from green cliffs onto a black gravel plain"
+        }
+      ],
+      "packages": [
+        "swiss-alpine-villages",
+        "amalfi-coastal-slow-days"
+      ],
+      "createdAt": "2026-11-10T17:53:59.000Z"
+    },
+    {
+      "name": "Thai Islands",
+      "slug": "thai-islands",
+      "tagline": "Limestone bays and island hopping",
+      "summary": "Hop between limestone islands by longtail boat, snorkel hidden lagoons and unwind in beach villas along the Andaman coast of the Thai Islands.",
+      "heroText": "Discover limestone bays, coral reefs and beach villas, from longtail boat days to lively Thai night markets by the sea",
+      "cardImage": {
+        "url": "/images/cms/quixotic-destination-thai-islands-card.avif",
+        "alt": "Longtail boats below limestone cliffs on a turquoise Thai bay"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-thai-islands-1920.avif",
+        "alt": ""
+      },
+      "tourCount": "14+ Tours",
+      "bestTimeToVisit": "November - April",
+      "climate": "Tropical",
+      "startingPrice": "$1,690",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Along Thailand's Andaman coast, hundreds of limestone islands rise from water so clear you can see the reef from the boat. Krabi, Koh Lanta and the Phi Phi islands mix lively night markets with quiet sandy beaches, and every evening ends with a sunset that turns the tall cliffs gold. It is easy, warm and friendly, made for slow island days, long swims and fresh seafood dinners on the beach at dusk."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Island hop by private longtail boat to hidden lagoons and empty white beaches"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Snorkel colourful coral reefs full of tropical fish, rays and gentle sea turtles"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stay in quiet beachfront villas with hammocks strung right over the soft white sand"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Eat fresh Thai curries and grilled seafood at busy, colourful night markets"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Swim in the emerald Hong lagoon at dawn, well before the busy day boats arrive."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Kayak through the quiet sea caves and green mangroves of Phang Nga Bay."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Learn to cook a fragrant green curry in a family kitchen garden on Koh Lanta."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Watch the sunset from Railay beach between towering cliffs."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Our Thailand team times every boat trip with the tides and leaves early, so you reach the famous bays while they are still calm and quiet. Ferries, transfers and island hotels are all linked up for you, with no long waits at busy piers or crowded ticket desks."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Each trip includes reef-safe snorkel gear, travel insurance advice and round-the-clock local support in English. We also pick villas with shade, good beds and fast Wi-Fi, and we can add a cooking class, a Thai massage or a private sunset cruise on any day of your island holiday."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stays range from bamboo beach bungalows to private pool villas"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ferries and longtail boats connect all of the main Andaman islands"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "May to October brings rain and rougher seas on the Andaman coast"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Cover your shoulders and knees when you visit the island temples"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Phi Phi and the Hong islands are easy day trips from Krabi town"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/destination-thailand.webp",
+          "alt": "Wooden pier leading to overwater bungalows on a clear lagoon"
+        },
+        {
+          "url": "/images/cms/blog-2.webp",
+          "alt": "Traveller in a sun hat relaxing on a deck chair by the sea"
+        },
+        {
+          "url": "/images/cms/quixotic-package-thai.webp",
+          "alt": "Long-tail boats moored below a limestone rock in Krabi"
+        }
+      ],
+      "packages": [
+        "bali-island-escape",
+        "kyoto-heritage-journey"
+      ],
+      "createdAt": "2026-11-10T17:54:00.000Z"
+    },
+    {
+      "name": "Bali",
+      "slug": "bali",
+      "tagline": "Rice terraces, temples and surf",
+      "summary": "Green rice terraces, sea temples, surf breaks and private pool villas make Bali the perfect island for honeymoons, wellness escapes and slow travel.",
+      "heroText": "Explore rice terraces, sea temples and surf beaches, from jungle pool villas to the golden sunset cliffs of Uluwatu",
+      "cardImage": {
+        "url": "/images/cms/quixotic-destination-bali-villas.webp",
+        "alt": "Wooden pier leading to overwater villas on clear lagoon water"
+      },
+      "heroImage": {
+        "url": "/images/cms/quixotic-destination-hero-bali-1920.avif",
+        "alt": ""
+      },
+      "tourCount": "10+ Tours",
+      "bestTimeToVisit": "April - October",
+      "climate": "Tropical",
+      "startingPrice": "$1,990",
+      "overview": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Bali is an island of daily offerings, temple ceremonies and emerald rice terraces. Ubud is its creative green heart, full of yoga studios, craft markets and jungle villas, while the south coast brings surf beaches and clifftop sunsets at Uluwatu. Wherever you stay, the warmth of Balinese hospitality makes every day feel easy, slow and quietly special from the very first morning to the last evening."
+            }
+          ]
+        }
+      ],
+      "whyVisit": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Walk the Tegallalang rice terraces in the soft golden light of early dawn"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stay in a private pool villa surrounded by tall palms and lush green jungle views"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Join a traditional water blessing ceremony at the sacred spring temple of Tirta Empul"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Surf, swim or simply unwind on the wide golden sandy beaches of the south coast"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "topExperiences": [
+        {
+          "type": "list",
+          "format": "ordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Explore the emerald landscapes of Ubud and experience authentic Balinese culture."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Relax in beach resorts with crystal-clear water and golden sunsets."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Visit Tanah Lot and Uluwatu Temple perched dramatically over the ocean."
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Ride world-class waves and soak up Bali's laid-back surf culture."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "bookingBenefits": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Our Bali planners hand-pick villas with private pools and real privacy, away from the busy streets of the south. Drivers, temple guides and spa rituals are all arranged before you land, so the only plan you need to make each morning is when to take your first swim."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "text": "Honeymoon and wellness extras, like floating breakfasts, flower baths and sunrise yoga, can be added to any trip. You also get a local SIM card, an English-speaking host on call and a driver who knows the quiet back roads, so you skip the traffic and see the island's calmest corners."
+            }
+          ]
+        }
+      ],
+      "travelNotes": [
+        {
+          "type": "list",
+          "format": "unordered",
+          "children": [
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Stays range from jungle villas in Ubud to clifftop beach resorts"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "A private driver is the easiest way to get around the whole island"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Bring a sarong for temple visits, or borrow one at the temple gate"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The rainy season usually runs from early November to late March"
+                }
+              ]
+            },
+            {
+              "type": "list-item",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "The Nusa islands are a short speedboat ride away from Sanur"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/cms/about-image-1.webp",
+          "alt": "Traveller with raised arms at a jungle waterfall"
+        },
+        {
+          "url": "/images/cms/quixotic-cta-island-bay-1920.avif",
+          "alt": "Traveller in a yellow dress overlooking a tropical island bay"
+        },
+        {
+          "url": "/images/cms/destination-maldives.webp",
+          "alt": "Wooden pier to overwater villas on a clear lagoon"
+        }
+      ],
+      "packages": [
+        "bali-island-escape",
+        "kyoto-heritage-journey"
+      ],
+      "createdAt": "2026-11-10T17:54:01.000Z"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import DestinationHero from "../../components/destination/DestinationHero.astro";
+import DestinationDetails from "../../components/destination/DestinationDetails.astro";
+import DestinationPackages from "../../components/destination/DestinationPackages.astro";
+import Faq from "../../components/shared/Faq.astro";
+import { getDestinations, type Destination } from "../../lib/cms";
+
+export async function getStaticPaths() {
+  const destinations = await getDestinations();
+  return destinations.map((destination) => ({ params: { slug: destination.slug }, props: { destination } }));
+}
+
+interface Props {
+  destination: Destination;
+}
+
+const { destination } = Astro.props;
+---
+<BaseLayout wfPage="destination" title={destination.name} description={destination.summary} ogImage={destination.heroImage?.url}>
+  <DestinationHero destination={destination} />
+  <DestinationDetails destination={destination} />
+  <DestinationPackages destination={destination} />
+  <Faq />
+</BaseLayout>

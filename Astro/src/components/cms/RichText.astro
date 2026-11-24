@@ -1,0 +1,18 @@
+---
+// Renders Strapi "Blocks" rich text as plain semantic HTML (the markup Webflow's
+// rich-text element produced), so the theme's .w-richtext styles apply unchanged.
+// Server-only: no client JavaScript.
+import type { Blocks } from "../../lib/cms/types";
+import { blocksToHtml } from "../../lib/cms/blocks";
+
+interface Props {
+  blocks: Blocks;
+  class: string;
+}
+
+const { blocks, class: className } = Astro.props;
+const html = blocksToHtml(blocks);
+// Webflow adds `w-dyn-bind-empty` (hidden) to an empty bound rich-text element.
+const cls = html ? className : `${className} w-dyn-bind-empty`;
+---
+<div class={cls} set:html={html} />

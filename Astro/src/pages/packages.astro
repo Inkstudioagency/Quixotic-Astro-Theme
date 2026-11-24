@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PackagesHero from "../components/packages/PackagesHero.astro";
+import PackagesList from "../components/packages/PackagesList.astro";
+import Faq from "../components/shared/Faq.astro";
+import Cta from "../components/shared/Cta.astro";
+---
+<BaseLayout wfPage="packages" title="Packages - Curated Tours and Holiday Trips | Quixotic"
+  description="Browse hand-picked travel packages from Kyoto to the Swiss Alps. Small-group tours, private villas and island trips with transparent prices per person.">
+  <PackagesHero />
+  <PackagesList />
+  <Faq />
+  <Cta />
+</BaseLayout>

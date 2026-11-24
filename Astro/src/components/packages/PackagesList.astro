@@ -1,0 +1,47 @@
+---
+// Packages page: every package (Travel CMS, A–Z).
+import PackageCard from "../cms/PackageCard.astro";
+import { getPackages } from "../../lib/cms";
+
+const packages = await getPackages();
+---
+<section data-hero-curtain-panel="" class="section_packages-list">
+  <div class="section-gap">
+    <div class="container-main">
+      <div class="packages-layout">
+        <div class="packages-results">
+          <div class="w-dyn-list">
+            {packages.length > 0 ? (
+            <div role="list" class="packages-grid w-dyn-items">
+              {packages.map((item) => (
+              <PackageCard pkg={item} listing />
+              ))}
+            </div>
+            ) : (
+            <div class="w-dyn-empty">
+              <div>No items found.</div>
+            </div>
+            )}
+          </div>
+        </div>
+        <aside class="packages-sidebar">
+          <div class="packages-help-card">
+            <div class="hero-avatar-group is-help is-listing"><img src="/images/hero-avatar-1_1hero-avatar-1.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar is-listing"><img src="/images/hero-avatar-2_1hero-avatar-2.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar is-listing"><img src="/images/hero-avatar-3_1hero-avatar-3.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar is-listing"></div>
+            <div class="packages-help-content">
+              <h2 class="packages-help-title">Not sure where to go?</h2>
+              <p class="packages-help-text">Tell a trip planner what you love and get three hand-picked tours within 24 hours.</p>
+            </div>
+            <div class="packages-help-button">
+              <a data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;],[&quot;5a0d2fcc-40ae-51c1-76a9-0176201b2c96&quot;]]]" data-wf-component-id="6ecb507f-d06f-1563-fe11-5255e3c667ca" data-wf-variant-state="base" href="/contact" class="primary-button w-inline-block">
+                <div class="button-text-mask">
+                  <div data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cc&quot;],[&quot;5a0d2fcc-40ae-51c1-76a9-0176201b2c96&quot;]]]" class="button-text">Talk to a planner</div>
+                  <div aria-hidden="true" data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cd&quot;],[&quot;5a0d2fcc-40ae-51c1-76a9-0176201b2c96&quot;]]]" class="button-text is-hover">Talk to a planner</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>

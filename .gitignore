@@ -1,0 +1,44 @@
+# ---- Source material kept locally (not part of the theme) ----
+/Template/
+/CMS/
+/SKILL.md
+
+# ---- Dependencies ----
+node_modules/
+**/node_modules/
+
+# ---- Build output / generated ----
+Astro/dist/
+Astro/.astro/
+**/dist/
+**/build/
+
+# ---- Strapi runtime / cache ----
+strapi/.tmp/
+strapi/.cache/
+strapi/.strapi/
+strapi/.strapi-updater.json
+strapi/public/uploads/*
+!strapi/public/uploads/.gitkeep
+strapi/types/generated/
+
+# ---- Secrets & env (never commit) ----
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# ---- Logs ----
+*.log
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ---- Vercel CLI link ----
+.vercel

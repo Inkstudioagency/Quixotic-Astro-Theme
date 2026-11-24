@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DestinationsHero from "../components/destinations/DestinationsHero.astro";
+import DestinationsGrid from "../components/destinations/DestinationsGrid.astro";
+import Faq from "../components/shared/Faq.astro";
+import Cta from "../components/shared/Cta.astro";
+---
+<BaseLayout wfPage="destinations" title="Destinations - Where to Travel Next | Quixotic"
+  description="Explore Quixotic destinations from Kyoto and the Amalfi Coast to Bali and the Lofoten Islands, with travel guides, best seasons and tours to book for each.">
+  <DestinationsHero />
+  <DestinationsGrid />
+  <Faq />
+  <Cta />
+</BaseLayout>

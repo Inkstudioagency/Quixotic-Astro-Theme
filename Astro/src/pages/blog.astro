@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogHero from "../components/blog/BlogHero.astro";
+import BlogList from "../components/blog/BlogList.astro";
+import Cta from "../components/shared/Cta.astro";
+---
+<BaseLayout wfPage="blog" title="Blog - Travel Tips, Guides and Stories | Quixotic"
+  description="Read the Quixotic travel blog for destination guides, packing lists, slow travel ideas and planning tips from our team to help you book a better trip.">
+  <BlogHero />
+  <BlogList />
+  <Cta />
+</BaseLayout>

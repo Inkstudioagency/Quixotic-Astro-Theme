@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BlogPostArticle from "../../components/blog-post/BlogPostArticle.astro";
+import BlogPostRelated from "../../components/blog-post/BlogPostRelated.astro";
+import { getBlogs, getRelatedBlogs, type Blog } from "../../lib/cms";
+
+export async function getStaticPaths() {
+  const posts = await getBlogs();
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+interface Props {
+  post: Blog;
+}
+
+const { post } = Astro.props;
+const related = await getRelatedBlogs(post.slug);
+---
+<BaseLayout wfPage="blogPost" title={post.title} description={post.summary} ogImage={post.thumbnail?.url}>
+  <BlogPostArticle post={post} />
+  <BlogPostRelated posts={related} />
+</BaseLayout>

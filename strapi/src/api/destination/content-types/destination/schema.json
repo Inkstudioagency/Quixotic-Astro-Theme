@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destinations",
+  "info": {
+    "singularName": "destination",
+    "pluralName": "destinations",
+    "displayName": "Destination",
+    "description": "Travel CMS: destinations rendered on /destinations, /destination/[slug] and the home page slider."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "heroText": {
+      "type": "text"
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tourCount": {
+      "type": "string"
+    },
+    "bestTimeToVisit": {
+      "type": "string"
+    },
+    "climate": {
+      "type": "string"
+    },
+    "startingPrice": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "blocks"
+    },
+    "whyVisit": {
+      "type": "blocks"
+    },
+    "topExperiences": {
+      "type": "blocks"
+    },
+    "bookingBenefits": {
+      "type": "blocks"
+    },
+    "travelNotes": {
+      "type": "blocks"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "packages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::package.package",
+      "inversedBy": "destinations"
+    }
+  }
+}

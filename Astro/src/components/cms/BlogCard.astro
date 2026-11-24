@@ -1,0 +1,45 @@
+---
+// Blog post card (collection list item). Used on the home page, blog index,
+// category pages and the "related posts" section of a post.
+import Img from "./Img.astro";
+import type { Blog } from "../../lib/cms/types";
+
+interface Props {
+  post: Blog;
+  /** Heading level for the title (h2 on category pages, h3 elsewhere). */
+  headingLevel?: 2 | 3;
+  /** Wide image variant (related posts). */
+  wide?: boolean;
+  /** Hide the duplicate image link from assistive tech (home page). */
+  hideImageLink?: boolean;
+  /** Use the post title as the thumbnail alt text (home page). */
+  titleAsAlt?: boolean;
+}
+
+const { post, headingLevel = 3, wide = false, hideImageLink = false, titleAsAlt = false } = Astro.props;
+const href = `/blog/${post.slug}`;
+const Heading = headingLevel === 2 ? "h2" : "h3";
+---
+<div role="listitem" class="blog-item w-dyn-item">
+  <div class="blog-card">
+    <a
+      aria-hidden={hideImageLink ? "true" : undefined}
+      tabindex={hideImageLink ? "-1" : undefined}
+      href={href}
+      class={wide ? "blog-image-wrap is-wide w-inline-block" : "blog-image-wrap w-inline-block"}
+      ><Img media={post.thumbnail} alt={titleAsAlt ? post.title : undefined} loading="lazy" width="1256" height="852" class="blog-image" /></a>
+    <div class="blog-content">
+      <div class="blog-meta">
+        <div class="blog-author-pill"><Img media={post.authorImage} alt={post.authorName} loading="lazy" width="48" height="48" class="blog-author-image" />
+          <div class="blog-meta-text">{post.authorName}</div>
+        </div>
+        <div class="blog-meta-pill">
+          <div class="blog-meta-text">{post.readTime}</div>
+        </div>
+      </div>
+      <a href={href} class="blog-title-link w-inline-block">
+        <Heading class="blog-title">{post.title}</Heading>
+      </a>
+    </div>
+  </div>
+</div>

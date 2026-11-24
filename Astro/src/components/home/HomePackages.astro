@@ -1,0 +1,104 @@
+---
+// Home: "Packages" region tabs. Each tab is a Webflow slider with one package per
+// slide (Travel CMS → packages flagged for that tab, A–Z, max 4).
+import Img from "../cms/Img.astro";
+import { getHomeTabPackages } from "../../lib/cms";
+
+const tabs = [
+  { id: "Tab 2", packages: await getHomeTabPackages("europe") },
+  { id: "Tab 3", packages: await getHomeTabPackages("asia") },
+  { id: "Tab 4", packages: await getHomeTabPackages("africa") },
+  { id: "Tab 5", packages: await getHomeTabPackages("americas") },
+];
+---
+<section id="packages" class="section_packages">
+  <div class="section-gap">
+    <div class="container-main">
+      <div class="package-wrapper">
+        <div data-reveal="up" class="package-heading-block">
+          <div class="section-heading-text-block">
+            <div class="section-eyebrow">
+              <div class="section-eyebrow-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.97 8c0 1.05-.67 1.51-.87 1.63-.57.32-1.28.3-1.77.27a8.4 8.4 0 0 1-1.21-.19c.34.22.67.46.98.72.38.32.9.81 1.06 1.44.04.16.07.44 0 .76-.07.39-.26.73-.53 1.01-.74.74-1.55.6-1.77.53-.63-.17-1.120-.69-1.44-1.06a7.6 7.6 0 0 1-.72-.98c.09.4.15.8.18 1.21.04.49.06 1.2-.26 1.77-.08.14-.27.36-.54.54-.33.22-.71.33-1.1.33-1.04 0-1.51-.67-1.63-.87-.32-.57-.31-1.28-.26-1.77.03-.41.09-.81.18-1.21-.22.34-.46.67-.72.98-.32.38-.81.9-1.44 1.06-.16.04-.44.07-.76 0a1.98 1.98 0 0 1-1.01-.53c-.74-.74-.6-1.550-.53-1.77.17-.63.68-1.12 1.06-1.44.31-.26.64-.5.98-.72-.4.09-.8.15-1.21.18-.49.04-1.2.06-1.77-.26-.14-.08-.36-.27-.54-.54A1.98 1.98 0 0 1 0 8c0-1.05.67-1.51.88-1.63.56-.33 1.28-.31 1.77-.27.4.03.81.1 1.21.19-.34-.22-.67-.46-.99-.73-.37-.31-.89-.81-1.06-1.43a1.65 1.65 0 0 1-.01-.76c.08-.39.26-.74.54-1.01.74-.74 1.55-.6 1.77-.53.63.17 1.12.69 1.44 1.06.26.31.5.64.72.99-.09-.4-.15-.8-.18-1.21-.04-.49-.06-1.21.26-1.77.08-.14.27-.36.54-.54.33-.22.7-.33 1.1-.33 1.04 0 1.51.67 1.63.87.32.57.31 1.28.26 1.77-.03.41-.09.81-.18 1.21.22-.35.46-.68.72-.99.32-.37.81-.89 1.44-1.06.16-.04.44-.07.76 0 .39.08.74.26 1.01.54.74.74.6 1.55.53 1.77-.17.63-.68 1.12-1.06 1.44-.31.26-.64.5-.98.72.4-.09.8-.15 1.21-.19.49-.04 1.2-.06 1.77.27.14.08.36.27.54.54.22.33.33.71.33 1.1ZM10.28 8a2.3 2.3 0 1 0-4.6 0 2.3 2.3 0 0 0 4.6 0Z" fill="currentColor"></path>
+                </svg></div>
+              <div class="section-eyebrow-text">Packages</div>
+              <div class="section-eyebrow-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.97 8c0 1.05-.67 1.51-.87 1.63-.57.32-1.28.3-1.77.27a8.4 8.4 0 0 1-1.21-.19c.34.22.67.46.98.72.38.32.9.81 1.06 1.44.04.16.07.44 0 .76-.07.39-.26.73-.53 1.01-.74.74-1.55.6-1.77.53-.63-.17-1.120-.69-1.44-1.06a7.6 7.6 0 0 1-.72-.98c.09.4.15.8.18 1.21.04.49.06 1.2-.26 1.77-.08.14-.27.36-.54.54-.33.22-.71.33-1.1.33-1.04 0-1.51-.67-1.63-.87-.32-.57-.31-1.28-.26-1.77.03-.41.09-.81.18-1.21-.22.34-.46.67-.72.98-.32.38-.81.9-1.44 1.06-.16.04-.44.07-.76 0a1.98 1.98 0 0 1-1.01-.53c-.74-.74-.6-1.550-.53-1.77.17-.63.68-1.12 1.06-1.44.31-.26.64-.5.98-.72-.4.09-.8.15-1.21.18-.49.04-1.2.06-1.77-.26-.14-.08-.36-.27-.54-.54A1.98 1.98 0 0 1 0 8c0-1.05.67-1.51.88-1.63.56-.33 1.28-.31 1.77-.27.4.03.81.1 1.21.19-.34-.22-.67-.46-.99-.73-.37-.31-.89-.81-1.06-1.43a1.65 1.65 0 0 1-.01-.76c.08-.39.26-.74.54-1.01.74-.74 1.55-.6 1.77-.53.63.17 1.12.69 1.44 1.06.26.31.5.64.72.99-.09-.4-.15-.8-.18-1.21-.04-.49-.06-1.21.26-1.77.08-.14.27-.36.54-.54.33-.22.7-.33 1.1-.33 1.04 0 1.51.67 1.63.87.32.57.31 1.28.26 1.77-.03.41-.09.81-.18 1.21.22-.35.46-.68.72-.99.32-.37.81-.89 1.44-1.06.16-.04.44-.07.76 0 .39.08.74.26 1.01.54.74.74.6 1.55.53 1.77-.17.63-.68 1.12-1.06 1.44-.31.26-.64.5-.98.72.4-.09.8-.15 1.21-.19.49-.04 1.2-.06 1.77.27.14.08.36.27.54.54.22.33.33.71.33 1.1ZM10.28 8a2.3 2.3 0 1 0-4.6 0 2.3 2.3 0 0 0 4.6 0Z" fill="currentColor"></path>
+                </svg></div>
+            </div>
+            <h2 class="heading-style-2">Top Packages Loved By Travelers</h2>
+          </div>
+        </div>
+        <div data-region-slider="true" data-reveal="up" data-current="Tab 2" data-easing="ease" data-duration-in="300" data-duration-out="100" class="region-tabs w-tabs">
+          <div class="region-tabs-menu w-tab-menu">
+            <a data-w-tab="Tab 2" class="region-tab is-active w-inline-block w-tab-link w--current">
+              <div class="region-tab-label">Europe</div>
+            </a>
+            <a data-w-tab="Tab 3" class="region-tab w-inline-block w-tab-link">
+              <div class="region-tab-label">Asia</div>
+            </a>
+            <a data-w-tab="Tab 4" class="region-tab w-inline-block w-tab-link">
+              <div class="region-tab-label">Africa</div>
+            </a>
+            <a data-w-tab="Tab 5" class="region-tab w-inline-block w-tab-link">
+              <div class="region-tab-label">Americas</div>
+            </a>
+          </div>
+          <div class="region-tabs-content w-tab-content">
+            {tabs.map((tab, i) => (
+            <div data-w-tab={tab.id} class={i === 0 ? "w-tab-pane w--tab-active" : "w-tab-pane"}>
+              <div data-delay="4000" data-animation="slide" class="region-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+                <div class="region-slider-mask w-slider-mask">
+                  {tab.packages.map((p) => (
+                  <div class="region-slide w-slide">
+                    <div class="region-list-wrapper w-dyn-list">
+                      <div role="list" class="region-list w-dyn-items">
+                        <div role="listitem" class="region-item w-dyn-item">
+                          <a href={`/package/${p.slug}`} class="region-card-media w-inline-block"><Img media={p.thumbnail} width="1352" height="1280" loading="lazy" class="region-card-image" /></a>
+                          <div class="region-card-info">
+                            <div class="region-card-content">
+                              <a href={`/package/${p.slug}`} class="region-card-title-link w-inline-block">
+                                <h3 class="region-card-title is-large">{p.name}</h3>
+                              </a>
+                              <p class="region-card-text">{p.summary}</p>
+                            </div>
+                            <div class="region-card-location">
+                              <div class="region-card-location-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M13.62 21.53c-.43.42-1.01.65-1.62.65s-1.19-.23-1.62-.65C6.4 17.68 1.08 13.37 3.68 7.1 5.08 3.71 8.47 1.5 12 1.5s6.92 2.21 8.32 5.6c2.6 6.26-2.71 10.59-6.7 14.43Z" stroke="currentColor" stroke-width="1.5"></path>
+                                  <circle cx="12" cy="11" r="3.5" stroke="currentColor" stroke-width="1.5"></circle>
+                                </svg></div>
+                              <div class="region-card-location-text">{p.location}</div>
+                            </div>
+                            <a href={`/package/${p.slug}`} class="region-card-book w-inline-block">
+                              <div class="region-card-book-text">
+                                <div class="region-card-book-label">Book From</div>
+                                <div class="region-card-book-price">{p.price}</div>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  ))}
+                </div>
+                <div class="region-slider-arrow w-slider-arrow-left">
+                  <div class="region-slider-arrow-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></div>
+                </div>
+                <div class="region-slider-arrow is-next w-slider-arrow-right">
+                  <div class="region-slider-arrow-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></div>
+                </div>
+                <div class="region-slider-nav w-slider-nav w-round w-num"></div>
+              </div>
+            </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

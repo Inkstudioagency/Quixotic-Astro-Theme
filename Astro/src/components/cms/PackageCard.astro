@@ -1,0 +1,64 @@
+---
+// Package card (collection list item). `listing` switches to the wider card used
+// on the Packages page (h2 title + is-listing modifiers); the default card is used
+// for related packages and a destination's packages.
+import Img from "./Img.astro";
+import type { Package } from "../../lib/cms/types";
+
+interface Props {
+  pkg: Package;
+  listing?: boolean;
+}
+
+const { pkg, listing = false } = Astro.props;
+const href = `/package/${pkg.slug}`;
+const Heading = listing ? "h2" : "h3";
+---
+<div role="listitem" class="packages-item w-dyn-item">
+  <div class="package-card is-grid">
+    <a href={href} class="package-image-link w-inline-block"><Img media={pkg.thumbnail} loading="lazy" width="924" height="1064" class="package-image" /></a>
+    <div class="package-badges">
+      <div class="package-badge">
+        <div class="package-badge-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.5l2.94 5.96 6.56.95-4.75 4.63 1.12 6.53L12 17.49l-5.87 3.08 1.12-6.53L2.5 9.41l6.56-.95L12 2.5Z" fill="currentColor"></path>
+          </svg></div>
+        <div>{pkg.rating}</div>
+      </div>
+      <div class="package-badge">
+        <div class="package-badge-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5"></circle>
+            <path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></div>
+        <div>{pkg.duration}</div>
+      </div>
+    </div>
+    <div class={listing ? "package-info is-left is-listing" : "package-info is-left"}>
+      <div class="package-location">
+        <div class="package-location-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.62 21.53c-.43.42-1.01.65-1.62.65s-1.19-.23-1.62-.65C6.4 17.68 1.08 13.37 3.680 7.1 5.08 3.71 8.47 1.5 12 1.5s6.92 2.21 8.32 5.6c2.6 6.26-2.71 10.59-6.7 14.43Z" stroke="currentColor" stroke-width="1.5"></path>
+            <circle cx="12" cy="11" r="3.5" stroke="currentColor" stroke-width="1.5"></circle>
+          </svg></div>
+        <div>{pkg.location}</div>
+      </div>
+      <a href={href} class={listing ? "package-title-link is-listing w-inline-block" : "package-title-link w-inline-block"}>
+        <Heading class="package-title is-card">{pkg.name}</Heading>
+      </a>
+      <p class={listing ? "package-text is-listing" : "package-text"}>{pkg.summary}</p>
+      <a href={href} class={listing ? "package-book-link is-cms is-listing" : "package-book-link is-cms w-inline-block"}>
+        <div class="button-text-mask">
+          <div class="button-text">
+            <div class="package-book-label"><span>Book From</span>
+              <div>{pkg.price}</div>
+            </div>
+          </div>
+          <div aria-hidden="true" class="button-text is-hover">
+            <div class="package-book-label">
+              <div>Book From</div>
+              <div>{pkg.price}</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,146 @@
+---
+// Destination page body: rich-text sections, gallery and the facts sidebar.
+import Img from "../cms/Img.astro";
+import RichText from "../cms/RichText.astro";
+import type { Destination } from "../../lib/cms";
+
+interface Props {
+  destination: Destination;
+}
+
+const { destination: d } = Astro.props;
+---
+<section data-hero-curtain-panel="" class="section_packages-list">
+  <div class="section-gap">
+    <div class="container-main">
+      <div class="package-details-layout is-destination">
+        <div class="package-details-main">
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Overview</h2>
+            <RichText blocks={d.overview} class="package-rich-text w-richtext" />
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Why Visit <span>{d.name}</span>?</h2>
+            <RichText blocks={d.whyVisit} class="package-rich-text is-destination-list w-richtext" />
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Top Experiences in <span>{d.name}</span></h2>
+            <RichText blocks={d.topExperiences} class="package-rich-text is-destination-list-loose w-richtext" />
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Why Travelers Love <span>{d.name}</span></h2>
+            <div class="package-why-grid">
+              <div class="package-why-card is-white">
+                <div class="package-why-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="16" cy="10" r="5" stroke="currentColor" stroke-width="1.8"></circle>
+                    <path d="M6 27c0-5.5 4.5-9 10-9s10 3.5 10 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+                    <path d="M21 4.5l1.2 2.4 2.6.4-1.9 1.8.5 2.6L21 10.5" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"></path>
+                  </svg></div>
+                <div class="package-why-text-block">
+                  <h3 class="package-why-title">Local Experts</h3>
+                  <p class="package-why-text">Every trip is led by certified local guides who share stories</p>
+                </div>
+              </div>
+              <div class="package-why-card is-white">
+                <div class="package-why-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 8l7-3 10 3 7-3v19l-7 3-10-3-7 3V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+                    <path d="M11 5v19M21 8v19" stroke="currentColor" stroke-width="1.8"></path>
+                  </svg></div>
+                <div class="package-why-text-block">
+                  <h3 class="package-why-title">Flexible Timings</h3>
+                  <p class="package-why-text">Choose morning or afternoon starts on every tour day</p>
+                </div>
+              </div>
+              <div class="package-why-card is-white">
+                <div class="package-why-icon w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="22" cy="9" r="3.5" stroke="currentColor" stroke-width="1.8"></circle>
+                    <path d="M3 26l8-11 6 7 4-5 8 9H3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+                  </svg></div>
+                <div class="package-why-text-block">
+                  <h3 class="package-why-title">Scenic Spots</h3>
+                  <p class="package-why-text">Reach iconic viewpoints and quiet corners most visitors miss</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Benefits of Booking With Us</h2>
+            <RichText blocks={d.bookingBenefits} class="package-rich-text w-richtext" />
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Travel Notes</h2>
+            <RichText blocks={d.travelNotes} class="package-rich-text is-destination-list w-richtext" />
+          </div>
+          <div class="package-detail-block">
+            <h2 class="package-detail-title">Destination Gallery</h2>
+            <div class="destination-gallery">
+              <div class="destination-gallery-column"><Img media={d.gallery[0]} loading="lazy" width="790" height="600" class="destination-gallery-image" /><Img media={d.gallery[1]} loading="lazy" width="790" height="600" class="destination-gallery-image" /></div><Img media={d.gallery[2]} loading="lazy" width="790" height="600" class="destination-gallery-image" />
+            </div>
+          </div>
+        </div>
+        <aside class="destination-sidebar">
+          <div class="destination-facts-card">
+            <div class="destination-fact">
+              <div class="destination-fact-icon">
+                <div class="destination-fact-svg w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3.75" y="5.25" width="16.5" height="15" rx="2.5" stroke="currentColor" stroke-width="1.5"></rect>
+                    <path d="M3.75 9.75h16.5M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                    <path d="M8 13.5h.01M12 13.5h.01M16 13.5h.01M8 17h.01M12 17h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+                  </svg></div>
+              </div>
+              <div class="destination-fact-content">
+                <div class="destination-fact-label">Best Time to Visit</div>
+                <div class="destination-fact-value">{d.bestTimeToVisit}</div>
+              </div>
+            </div>
+            <div class="destination-fact">
+              <div class="destination-fact-icon">
+                <div class="destination-fact-svg w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"></circle>
+                    <path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.28 5.28l1.42 1.42M17.3 17.3l1.42 1.42M5.28 18.72l1.42-1.42M17.3 6.7l1.42-1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+                  </svg></div>
+              </div>
+              <div class="destination-fact-content">
+                <div class="destination-fact-label">Climate</div>
+                <div class="destination-fact-value">{d.climate}</div>
+              </div>
+            </div>
+            <div class="destination-fact">
+              <div class="destination-fact-icon">
+                <div class="destination-fact-svg w-embed"><svg aria-hidden="true" width="100%" height="100%" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.75l8.25 4.5v9.5L12 21.25l-8.25-4.5v-9.5L12 2.75Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                    <path d="M3.75 7.25L12 11.75l8.25-4.5M12 11.75v9.5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"></path>
+                  </svg></div>
+              </div>
+              <div class="destination-fact-content">
+                <div class="destination-fact-label">Available Packages</div>
+                <div class="destination-fact-value">Starting from <span>{d.startingPrice}</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="packages-help-card">
+            <div class="hero-avatar-group is-help"><img src="/images/hero-avatar-1_1hero-avatar-1.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar"><img src="/images/hero-avatar-2_1hero-avatar-2.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar"><img src="/images/hero-avatar-3_1hero-avatar-3.webp" loading="lazy" width="160" height="160" alt="Trip planner portrait" class="hero-avatar"></div>
+            <div class="packages-help-content">
+              <h2 class="packages-help-title">Get a custom tour plan with us</h2>
+              <p class="packages-help-text">Tell a planner your dates and travel style and get a day-by-day route, stays and prices within 24 hours.</p>
+            </div>
+            <div class="packages-help-button is-double">
+              <a data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;],[&quot;558234e3-6f38-b685-2dda-0d8a87263196&quot;]]]" data-wf-component-id="6ecb507f-d06f-1563-fe11-5255e3c667ca" data-wf-variant-state="base" href="/packages" class="primary-button w-inline-block">
+                <div class="button-text-mask">
+                  <div data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cc&quot;],[&quot;558234e3-6f38-b685-2dda-0d8a87263196&quot;]]]" class="button-text">Browse packages</div>
+                  <div aria-hidden="true" data-wf-target="[[[&quot;6ecb507f-d06f-1563-fe11-5255e3c667ca&quot;,&quot;6ecb507f-d06f-1563-fe11-5255e3c667cd&quot;],[&quot;558234e3-6f38-b685-2dda-0d8a87263196&quot;]]]" class="button-text is-hover">Browse packages</div>
+                </div>
+              </a>
+              <a data-wf-target="[[[&quot;12683dd5-0676-1864-7668-8aabbf7cf8ae&quot;,&quot;12683dd5-0676-1864-7668-8aabbf7cf8ae&quot;],[&quot;026a0675-68df-4277-ef83-9fdfb6fea912&quot;]]]" data-wf--secondary-button--variant="dark" data-wf-component-id="12683dd5-0676-1864-7668-8aabbf7cf8ae" data-wf-variant-state="2effd4ff-9bdc-a1da-0423-757498c1ac4f" href="/contact" class="secondary-button w-variant-2effd4ff-9bdc-a1da-0423-757498c1ac4f w-inline-block">
+                <div class="button-text-mask">
+                  <div data-wf-target="[[[&quot;12683dd5-0676-1864-7668-8aabbf7cf8ae&quot;,&quot;12683dd5-0676-1864-7668-8aabbf7cf8b0&quot;],[&quot;026a0675-68df-4277-ef83-9fdfb6fea912&quot;]]]" class="button-text">Get Custom Tour Plan</div>
+                  <div aria-hidden="true" data-wf-target="[[[&quot;12683dd5-0676-1864-7668-8aabbf7cf8ae&quot;,&quot;12683dd5-0676-1864-7668-8aabbf7cf8b1&quot;],[&quot;026a0675-68df-4277-ef83-9fdfb6fea912&quot;]]]" class="button-text is-hover">Get Custom Tour Plan</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_travel_home_tabs",
+  "info": {
+    "displayName": "Home Tabs",
+    "description": "Which region tabs of the home page Packages slider show this package.",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "europe": {
+      "type": "boolean",
+      "default": false
+    },
+    "asia": {
+      "type": "boolean",
+      "default": false
+    },
+    "africa": {
+      "type": "boolean",
+      "default": false
+    },
+    "americas": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
