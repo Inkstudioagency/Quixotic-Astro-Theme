@@ -34,7 +34,6 @@ const linkClass = (cls: string, href: string) => (isCurrent(href) ? `${cls} w--c
             <a href="/" aria-current={current("/")} class={linkClass("footer-link", "/")}>Home</a>
             <a href="/about" aria-current={current("/about")} class={linkClass("footer-link", "/about")}>About</a>
             <a href="/destinations" aria-current={current("/destinations")} class={linkClass("footer-link", "/destinations")}>Destinations</a>
-            <a href="/packages" aria-current={current("/packages")} class={linkClass("footer-link", "/packages")}>Packages</a>
             <a href="/blog" aria-current={current("/blog")} class={linkClass("footer-link", "/blog")}>Blog</a>
           </div>
         </div>
@@ -44,6 +43,7 @@ const linkClass = (cls: string, href: string) => (isCurrent(href) ? `${cls} w--c
             <a href="/#testimonials" class="footer-link">Testimonials</a>
             <a href="/#faq" class="footer-link">FAQ</a>
             <a href="/contact" aria-current={current("/contact")} class={linkClass("footer-link", "/contact")}>Contact</a>
+            <a href="/packages" aria-current={current("/packages")} class={linkClass("footer-link", "/packages")}>Packages</a>
           </div>
         </div>
         <div class="footer-link-column">
